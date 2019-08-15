@@ -16,6 +16,8 @@ import Calendar from "../images/calendar.png"
 import Money from "../images/money.png"
 import Envelope from "../images/envelope.png"
 import Screenshot from "../images/cell-screenshot.png"
+import Platform from "../images/platform-glance.png"
+import Reviews from "../images/reviews.png"
 
 const IndexPage = () => (
   <Layout>
@@ -116,8 +118,8 @@ const IndexPage = () => (
 
     <div className="bg-lightgray px-10 py-10 m-0 text-center">
 
-      <h2>Finally a job platform for the
-        <span className="text-brightblue"> hospitality industry!</span></h2>
+      <h3 className="pb-2">Finally a job platform for the
+        <span className="text-brightblue"> hospitality industry!</span></h3>
 
       <p>Finding talent and jobs in the hospitality industry has never been easier.<br />
         Sign up today and give it a try!</p>
@@ -139,8 +141,8 @@ const IndexPage = () => (
     <div className="py-10 px-15 text-left d-flex justify-content-around align-items-center">
 
       <div>
-        <h2 className="pl-4">Employers can manage<br />
-          <span className="text-brightblue"> talent</span> & payroll</h2>
+        <h3 className="pl-4">Employers can manage<br />
+          <span className="text-brightblue"> talent</span> & payroll</h3>
         <ul className="purple-checkmark text-left pt-3">
           <li>Setup your event and preferences</li>
           <li>Publish shifts to hundreds of curated talents</li>
@@ -159,24 +161,55 @@ const IndexPage = () => (
 
 
 
-    <div className="bg-lightgray px-10 py-10 m-0 text-center">
-      <h2>It's never been easier to <span className="text-brightblue">
-        find jobs and hire</span> in the hospitality industry.</h2>
+
+    <div className="bg-lightgray px-5 py-10 m-0 text-center">
+
+      <h3 className="pb-1">It's never been easier to <span className="text-brightblue">
+        find jobs and hire</span> in the hospitality industry.</h3>
 
       <p>Sign up today and experience the difference. It's fast and easy!</p>
 
       <button className="btn radius btn-purple mt-3 my-2 ml-2 px-5 py-3"
-            type="submit">Get Started</button>
+        type="submit">Get Started</button>
+
     </div>
 
 
 
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+
+
+
+    <div className="py-10 px-10 text-left text-center">
+
+      <h3 className="pb-2">The <span className="text-brightblue">platform</span> at a glance</h3>
+
+      <p>JobCore provides an easy to use end-to-end experience for employers and job seekers
+        <br />in the hospitality industry on mobile and desktop.</p>
+
+      <img className="py-4 mx-auto" src={Platform} />
+
+      <h3 className="py-4">What our <span className="text-brightblue">customers
+        </span> are saying about us</h3>
+
+      <img className="pb-5" src={Reviews} />
+
+      <h3 className="pt-5 mt-3">It's never been easier <span className="text-brightblue">find jobs and hire
+      </span> in the hospitality industry.</h3>
+
+      <p className="pb-4">Sign up today and experience the difference. It's fast and easy!</p>
+
+      <input type="text" placeholder="Enter Your Email" />
+
+      <button className="btn radius btn-purple my-2 ml-2 px-4 py-2"
+        type="submit">Get Started</button>
+
     </div>
+
+
+
+
+
+
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )

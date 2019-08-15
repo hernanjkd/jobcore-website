@@ -8,14 +8,16 @@ const Navbar = () => (
 
         <div>
             <div className="text-right">
-                <span>(305)555-8473</span>
-                <a className="link px-2" href="#">My Account</a>
-                <a className="link px-2" href="#">Sign In</a>
+                <small>
+                    <span className="pr-4">(305)555-8473</span>
+                    <a className="link px-2 pr-4" href="#">My Account</a>
+                    <a className="link px-2" href="#">Sign In</a>
+                </small>
             </div>
             <div>
-                <a className="link px-2" href="#">Job Seekers<span className="sr-only">(current)</span></a>
+                <a className="link px-3" href="#">Job Seekers<span className="sr-only">(current)</span></a>
 
-                <a className="link px-2 text-brightblue" href="#">Positions</a>
+                <a className="link px-3 text-brightblue" href="#">Positions</a>
                 <button className="btn radius btn-darkgreen my-2 ml-5 px-4"
                     type="submit">Get Started</button>
             </div>
