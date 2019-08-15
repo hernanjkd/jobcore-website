@@ -8,6 +8,13 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
+    
+    <h2 className="card">Get work fast & get paid the same day</h2>
+    
+    <p>JobCore is where events are organized: A talent pool of curated workers and hundreds of companies
+      organizing events and hiring everyday.
+    </p>
+
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>

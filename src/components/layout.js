@@ -9,7 +9,9 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
+import "bootstrap/dist/css/bootstrap.css";
+
+import Navbar from "./nav-bar"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -25,7 +27,6 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
           margin: `0 auto`,
@@ -34,6 +35,7 @@ const Layout = ({ children }) => {
           paddingTop: 0,
         }}
       >
+        <Navbar />
         <main>{children}</main>
         <footer>
           © {new Date().getFullYear()}, Built with
