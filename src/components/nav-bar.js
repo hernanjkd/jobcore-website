@@ -15,8 +15,8 @@ const Navbar = () => (
             <div>
                 <a className="link px-2" href="#">Job Seekers<span className="sr-only">(current)</span></a>
 
-                <a className="link px-2" href="#">Positions</a>
-                <button className="btn radius btn-success my-2 my-sm-0 ml-5 px-4"
+                <a className="link px-2 text-brightblue" href="#">Positions</a>
+                <button className="btn radius btn-darkgreen my-2 my-sm-0 ml-5 px-4"
                     type="submit">Get Started</button>
             </div>
         </div>
