@@ -22,7 +22,8 @@ input::placeholder {
 }
 
 .radius {
-  border-radius: 10px 100px / 120px;
+  border-radius: 30px 30px 30px 30px;
+  font-size: 15px;
 }
 
 .px-10 {
@@ -30,9 +31,9 @@ input::placeholder {
   padding-right: 10em;
 }
 
-.px-20 {
-  padding-left: 18em;
-  padding-right: 18em;
+.px-15 {
+  padding-left: 15em;
+  padding-right: 15em;
 }
 
 .py-10 {
@@ -41,7 +42,7 @@ input::placeholder {
 }
 
 .btn-purple {
-  background: rgb(141, 21, 141);
+  background: rgb(163, 25, 163);
   color: white;
 }
 
@@ -51,7 +52,7 @@ input::placeholder {
 }
 
 .text-brightblue {
-  color: rgb(10, 171, 177);
+  color: rgb(17, 186, 192);
 }
 
 .bg-lightgray {

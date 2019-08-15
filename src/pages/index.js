@@ -22,6 +22,7 @@ const IndexPage = () => (
 
 
 
+
     <div className="bg-lightgray px-10 py-10 m-0 d-flex justify-content-between">
 
       <div className="pr-5">
@@ -34,7 +35,7 @@ const IndexPage = () => (
         <div className="text-center pt-3">
           <input type="text" placeholder="Enter Your Email" />
 
-          <button className="btn radius btn-purple my-2 my-sm-0 ml-2 px-4"
+          <button className="btn radius btn-purple my-2 ml-2 px-4 py-2"
             type="submit">Get Started</button>
         </div>
 
@@ -55,13 +56,15 @@ const IndexPage = () => (
 
 
 
+
     <div className="py-10 px-10 text-center">
 
       <h3>Finally a centralized <span className="text-brightblue">source of talents </span>
         and companies!</h3>
 
-      <p className="px-10 pt-3">Sign up, setup your job preferences and start receiving invitations to work as
-      Chef, Cook, Bartender, Cleaning Staff or any other role surrounding hospitality.</p>
+      <p className="pt-3">Sign up, setup your job preferences and start 
+      receiving invitations to work as Chef, Cook, <br />Bartender, Cleaning Staff or any other 
+      role surrounding hospitality.</p>
 
       <div className="pt-5 d-flex justify-content-between align-items-end">
         <div className="w-250px">
@@ -105,6 +108,7 @@ const IndexPage = () => (
 
 
 
+
     <div className="bg-lightgray px-10 py-10 m-0 text-center">
 
       <h2>Finally a job platform for the
@@ -116,7 +120,7 @@ const IndexPage = () => (
       <div className="text-center pt-4">
         <input type="text" placeholder="Enter Your Email" />
 
-        <button className="btn radius btn-purple my-2 my-sm-0 ml-2 px-4"
+        <button className="btn radius btn-purple my-2 ml-2 px-4 py-2"
           type="submit">Get Started</button>
       </div>
 
@@ -125,10 +129,13 @@ const IndexPage = () => (
 
 
 
-    <div className="py-10 px-20 text-left d-flex justify-content-around align-items-center">
+
+
+    <div className="py-10 px-15 text-left d-flex justify-content-around align-items-center">
 
       <div>
-        <h2 className="pl-1 pr-4">Employers can manage <span className="text-brightblue">talent</span> and payroll</h2>
+        <h2 className="pl-4">Employers can manage<br />
+          <span className="text-brightblue"> talent</span> & payroll</h2>
         <ul className="purple-checkmark text-left pt-3">
           <li>Setup your event and preferences</li>
           <li>Publish shifts to hundreds of curated talents</li>
@@ -141,6 +148,20 @@ const IndexPage = () => (
 
       <img src={Screenshot} />
 
+    </div>
+
+
+
+
+
+    <div className="bg-lightgray px-10 py-10 m-0 text-center">
+      <h2>It's never been easier to <span className="text-brightblue">
+        find jobs and hire</span> in the hospitality industry.</h2>
+
+      <p>Sign up today and experience the difference. It's fast and easy!</p>
+
+      <button className="btn radius btn-purple mt-3 my-2 ml-2 px-5 py-3"
+            type="submit">Get Started</button>
     </div>
 
 
