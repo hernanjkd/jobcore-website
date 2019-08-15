@@ -7,6 +7,10 @@ a {
   color: black;
 }
 
+.px-10 {
+  padding: 0 10em;
+}
+
 
 /* 
 html {

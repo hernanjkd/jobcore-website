@@ -2,7 +2,7 @@ import React from "react"
 import Logo from "../images/jobcore-logo.png"
 
 const Navbar = () => (
-    <nav className="navbar navbar-expand-lg justify-content-between">
+    <nav className="navbar navbar-expand-lg justify-content-between px-10">
 
         <a className="navbar-brand" href="#"><img src={Logo} /></a>
 

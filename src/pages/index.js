@@ -9,12 +9,22 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
 
-    <div className="bg-light">
-      <h2 className="">Get work fast & get paid the same day</h2>
+    <div className="bg-light px-10 py-5 m-0 d-flex justify-content-between">
+      
+        <div className="">
+          <h2 className="">Get work fast & get paid the same day</h2>
 
-      <p>JobCore is where events are organized: A talent pool of curated workers and hundreds of companies
-        organizing events and hiring everyday.
-    </p>
+          <p>
+            JobCore is where events are organized: A talent pool of curated workers and hundreds of companies
+            organizing events and hiring everyday.
+        </p>
+        </div>
+
+        <div className="">
+          <iframe width="340" height="220" src="https://www.youtube.com/watch?v=0gwvFV9OXuI"></iframe>
+        </div>
+
+      {/* </div> */}
     </div>
 
     <h1>Hi people</h1>

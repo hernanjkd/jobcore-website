@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <div className="container">
+      <div className="container-fluid px-0 mt-2">
         <Navbar />
         <main>{children}</main>
         <footer>
