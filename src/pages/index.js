@@ -4,6 +4,9 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import Player from "../components/Player"
+
+//assets
 import AppStore from "../images/app-store.png"
 import GooglePlay from "../images/google-play.png"
 import Clock from "../images/clock.png"
@@ -25,33 +28,35 @@ const IndexPage = () => (
 
 
 
-    <div className="bg-lightgray px-10 py-10 m-0 d-flex justify-content-between">
+    <div className="bg-lightgray py-10 m-0">
+        <div className="container">
+            <div className="row">
+                <div className="col-6 text-left" >
+                    <h1 className="">Get work fast & <span className="text-brightblue">get paid </span>
+                    the same day</h1>
 
-      <div className="pr-5">
-        <h1 className="">Get work fast & <span className="text-brightblue">get paid </span>
-          the same day</h1>
+                    <p>JobCore is where events are organized: A talent pool of curated workers and hundreds of companies
+                    organizing events and hiring everyday.</p>
 
-        <p>JobCore is where events are organized: A talent pool of curated workers and hundreds of companies
-          organizing events and hiring everyday.</p>
+                    <div className="text-center pt-3">
+                    <input type="text" placeholder="Enter Your Email" />
 
-        <div className="text-center pt-3">
-          <input type="text" placeholder="Enter Your Email" />
+                    <button className="btn radius btn-purple my-2 ml-2 px-4 py-2"
+                        type="submit">Get Started</button>
+                    </div>
 
-          <button className="btn radius btn-purple my-2 ml-2 px-4 py-2"
-            type="submit">Get Started</button>
+                    <div className="text-center pt-5">
+                    <a className="pr-2" href="#"><img src={GooglePlay} /></a>
+                    <a href="#"><img src={AppStore} /></a>
+                    </div>
+
+                </div>
+
+                <div className="col-6">
+                    <Player video="0gwvFV9OXuI" height={"300px"} style={{backgroundColor: "#dcdbdb"}} />
+                </div>
+            </div>
         </div>
-
-        <div className="text-center pt-5">
-          <a className="pr-2" href="#"><img src={GooglePlay} /></a>
-          <a href="#"><img src={AppStore} /></a>
-        </div>
-
-      </div>
-
-      <div className="">
-        <iframe width="340" height="220" src="https://www.youtube.com/watch?v=0gwvFV9OXuI"></iframe>
-      </div>
-
     </div>
 
 
@@ -60,50 +65,50 @@ const IndexPage = () => (
 
 
     <div className="py-10 px-10 text-center">
+        <div className="container">
+            <h3>Finally a centralized <span className="text-brightblue">source of talents </span>
+                and companies!</h3>
 
-      <h3>Finally a centralized <span className="text-brightblue">source of talents </span>
-        and companies!</h3>
+            <p className="pt-3">Sign up, setup your job preferences and start
+            receiving invitations to work as Chef, Cook, <br />Bartender, Cleaning Staff or any other
+            role surrounding hospitality.</p>
 
-      <p className="pt-3">Sign up, setup your job preferences and start
-      receiving invitations to work as Chef, Cook, <br />Bartender, Cleaning Staff or any other
-      role surrounding hospitality.</p>
+            <div className="pt-5 d-flex justify-content-between align-items-end">
+                <div className="w-250px">
+                <img src={Suitcase} />
+                <h6 className="pt-3">Publish Shifts</h6>
+                <p>Setup your job and preferences in a custom calendar.</p>
+                </div>
+                <div className="w-250px">
+                <img src={Magnify} />
+                <h6 className="pt-2">Find Talent</h6>
+                <p>Access a talent pool of people in Miami, rated with experience.</p>
+                </div>
+                <div className="w-250px">
+                <img src={Calendar} />
+                <h6 className="pt-3">Manage Schedule</h6>
+                <p>Automatically send employees job location and shift times.</p>
+                </div>
+            </div>
 
-      <div className="pt-5 d-flex justify-content-between align-items-end">
-        <div className="w-250px">
-          <img src={Suitcase} />
-          <h6 className="pt-3">Publish Shifts</h6>
-          <p>Setup your job and preferences in a custom calendar.</p>
+            <div className="pt-5 d-flex justify-content-between align-items-end">
+                <div className="w-250px">
+                <img src={Clock} />
+                <h6 className="pt-1">Clock In-Out</h6>
+                <p>Track employee performance with GPS located clock in-out features.</p>
+                </div>
+                <div className="w-250px">
+                <img src={Money} />
+                <h6 className="pt-2">Payroll Reports</h6>
+                <p>Instant payroll reports based on employee activity.</p>
+                </div>
+                <div className="w-250px">
+                <img src={Envelope} />
+                <h6 className="pt-2">Direct Payments</h6>
+                <p>Direct ACH payments to employee bank accounts.</p>
+                </div>
+            </div>
         </div>
-        <div className="w-250px">
-          <img src={Magnify} />
-          <h6 className="pt-2">Find Talent</h6>
-          <p>Access a talent pool of people in Miami, rated with experience.</p>
-        </div>
-        <div className="w-250px">
-          <img src={Calendar} />
-          <h6 className="pt-3">Manage Schedule</h6>
-          <p>Automatically send employees job location and shift times.</p>
-        </div>
-      </div>
-
-      <div className="pt-5 d-flex justify-content-between align-items-end">
-        <div className="w-250px">
-          <img src={Clock} />
-          <h6 className="pt-1">Clock In-Out</h6>
-          <p>Track employee performance with GPS located clock in-out features.</p>
-        </div>
-        <div className="w-250px">
-          <img src={Money} />
-          <h6 className="pt-2">Payroll Reports</h6>
-          <p>Instant payroll reports based on employee activity.</p>
-        </div>
-        <div className="w-250px">
-          <img src={Envelope} />
-          <h6 className="pt-2">Direct Payments</h6>
-          <p>Direct ACH payments to employee bank accounts.</p>
-        </div>
-      </div>
-
     </div>
 
 
