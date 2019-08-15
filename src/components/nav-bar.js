@@ -3,19 +3,22 @@ import Logo from "../images/jobcore-logo.png"
 
 const Navbar = () => (
     <nav className="navbar navbar-expand-lg justify-content-between">
-    
+
         <a className="navbar-brand" href="#"><img src={Logo} /></a>
 
         <div>
-            <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li className="nav-item active">
-                    <a className="nav-link" href="#">Job Seekers<span className="sr-only">(current)</span></a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="#">Positions</a>
-                </li>
-            </ul>
-            <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Get Started</button>
+            <div className="text-right">
+                <span>(305)555-8473</span>
+                <a className="link px-2" href="#">My Account</a>
+                <a className="link px-2" href="#">Sign In</a>
+            </div>
+            <div>
+                <a className="link px-2" href="#">Job Seekers<span className="sr-only">(current)</span></a>
+
+                <a className="link px-2" href="#">Positions</a>
+                <button className="btn radius btn-success my-2 my-sm-0 ml-5 px-4"
+                    type="submit">Get Started</button>
+            </div>
         </div>
     </nav>
 )
