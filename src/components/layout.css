@@ -1,14 +1,43 @@
-.radius {
-  border-radius: 10px 100px / 120px;
-}
-
 a {
   text-decoration: none;
   color: black;
 }
 
+input {
+  height: 45px;
+  width: 200px;
+}
+
+input::placeholder {
+  text-indent: 15px;
+  font-size: 11px;
+  color: gray;
+}
+
+.purple-checkmark {
+  list-style-image: url('../images/purple-checkmark.png');
+}
+.purple-checkmark li {
+  margin-bottom: 5px;
+}
+
+.radius {
+  border-radius: 10px 100px / 120px;
+}
+
 .px-10 {
-  padding: 0 10em;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+.px-20 {
+  padding-left: 18em;
+  padding-right: 18em;
+}
+
+.py-10 {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .btn-purple {
@@ -27,6 +56,10 @@ a {
 
 .bg-lightgray {
   background: rgb(226, 226, 226);
+}
+
+.w-250px {
+  width: 250px;
 }
 
 /* 
