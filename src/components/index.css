@@ -22,10 +22,6 @@ a:hover {
   text-decoration: none;
 }
 
-.form-control {
-  width: 300px !important;
-}
-
 footer {
   background-image: url('../images/footer-green.png');
   padding: 8em;
@@ -44,6 +40,10 @@ footer li {
 }
 footer a {
   color: rgb(238, 238, 238);
+}
+
+.form-control {
+  width: 300px !important;
 }
 
 .purple-checkmark {
@@ -99,6 +99,13 @@ footer a {
   font-size: 7px;
   padding-right: 3px;
   line-height: 2.5;
+}
+
+.positions-top-image {
+  width: 100%;
+  height: 500px;
+  background-image: url('https://www.mammamiaaa.it/wp-content/uploads/2019/05/MAD-banner-e1557141137732.jpg');
+  background-size: cover;
 }
 
 /* 
