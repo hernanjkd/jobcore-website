@@ -44,7 +44,7 @@ const IndexPage = () => (
             </div>
 
             <div className="text-center pt-5">
-              <a className="pr-2" href="#"><img src={GooglePlay} /></a>
+              <a className="mr-2" href="#"><img src={GooglePlay} /></a>
               <a href="#"><img src={AppStore} /></a>
             </div>
 
@@ -71,38 +71,38 @@ const IndexPage = () => (
             receiving invitations to work as Chef, Cook, <br />Bartender, Cleaning Staff or any other
             role surrounding hospitality.</p>
 
-        <div className="pt-5 d-flex justify-content-between align-items-end">
+        <div className="mt-5 d-flex justify-content-between align-items-end">
           <div className="w-250px">
             <img src={Suitcase} />
-            <h6 className="pt-3">Publish Shifts</h6>
+            <h6 className="mt-3">Publish Shifts</h6>
             <p>Setup your job and preferences in a custom calendar.</p>
           </div>
           <div className="w-250px">
             <img src={Magnify} />
-            <h6 className="pt-2">Find Talent</h6>
+            <h6 className="mt-2">Find Talent</h6>
             <p>Access a talent pool of people in Miami, rated with experience.</p>
           </div>
           <div className="w-250px">
             <img src={Calendar} />
-            <h6 className="pt-3">Manage Schedule</h6>
+            <h6 className="mt-3">Manage Schedule</h6>
             <p>Automatically send employees job location and shift times.</p>
           </div>
         </div>
 
-        <div className="pt-5 d-flex justify-content-between align-items-end">
+        <div className="mt-5 d-flex justify-content-between align-items-end">
           <div className="w-250px">
             <img src={Clock} />
-            <h6 className="pt-1">Clock In-Out</h6>
+            <h6 className="mt-1">Clock In-Out</h6>
             <p>Track employee performance with GPS located clock in-out features.</p>
           </div>
           <div className="w-250px">
             <img src={Money} />
-            <h6 className="pt-2">Payroll Reports</h6>
+            <h6 className="mt-2">Payroll Reports</h6>
             <p>Instant payroll reports based on employee activity.</p>
           </div>
           <div className="w-250px">
             <img src={Envelope} />
-            <h6 className="pt-2">Direct Payments</h6>
+            <h6 className="mt-2">Direct Payments</h6>
             <p>Direct ACH payments to employee bank accounts.</p>
           </div>
         </div>
@@ -116,13 +116,13 @@ const IndexPage = () => (
 
     <div className="bg-lightgray px-10 py-10 m-0 text-center">
 
-      <h3 className="pb-2">Finally a job platform for the
+      <h3 className="mb-2">Finally a job platform for the
         <span className="text-brightblue"> hospitality industry!</span></h3>
 
       <p>Finding talent and jobs in the hospitality industry has never been easier.<br />
         Sign up today and give it a try!</p>
 
-      <div className="pt-4 d-flex align-items-center justify-content-center">
+      <div className="mt-4 d-flex align-items-center justify-content-center">
         <input type="text" className="form-control" placeholder="Enter Your Email" />
 
         <button className="btn radius btn-purple my-2 ml-2 px-4 py-2"
@@ -139,9 +139,9 @@ const IndexPage = () => (
     <div className="py-10 px-15 text-left d-flex justify-content-around align-items-center">
 
       <div>
-        <h3 className="pl-4">Employers can manage<br />
+        <h3 className="ml-4">Employers can manage<br />
           <span className="text-brightblue"> talent</span> & payroll</h3>
-        <ul className="purple-checkmark text-left pt-3">
+        <ul className="purple-checkmark text-left mt-3">
           <li>Setup your event and preferences</li>
           <li>Publish shifts to hundreds of curated talents</li>
           <li>Hire the talents you want</li>
@@ -162,7 +162,7 @@ const IndexPage = () => (
 
     <div className="bg-lightgray px-5 py-10 m-0 text-center">
 
-      <h3 className="pb-1">It's never been easier to <span className="text-brightblue">
+      <h3 className="mb-1">It's never been easier to <span className="text-brightblue">
         find jobs and hire</span> in the hospitality industry.</h3>
 
       <p>Sign up today and experience the difference. It's fast and easy!</p>
@@ -179,22 +179,22 @@ const IndexPage = () => (
 
     <div className="py-10 px-10 text-left text-center">
 
-      <h3 className="pb-2">The <span className="text-brightblue">platform</span> at a glance</h3>
+      <h3 className="mb-2">The <span className="text-brightblue">platform</span> at a glance</h3>
 
       <p>JobCore provides an easy to use end-to-end experience for employers and job seekers
         <br />in the hospitality industry on mobile and desktop.</p>
 
-      <img className="py-4 mx-auto" src={Platform} />
+      <img className="my-4 mx-auto" src={Platform} />
 
-      <h3 className="py-4">What our <span className="text-brightblue">customers
+      <h3 className="my-4">What our <span className="text-brightblue">customers
         </span> are saying about us</h3>
 
-      <img className="pb-5" src={Reviews} />
+      <img className="mb-5" src={Reviews} />
 
       <h3 className="pt-5 mt-3">It's never been easier <span className="text-brightblue">find jobs and hire
       </span> in the hospitality industry.</h3>
 
-      <p className="pb-4">Sign up today and experience the difference. It's fast and easy!</p>
+      <p className="mb-4">Sign up today and experience the difference. It's fast and easy!</p>
 
       <div className="d-flex align-items-center justify-content-center">
         <input type="text" className="form-control" placeholder="Enter Your Email" />

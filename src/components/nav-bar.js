@@ -5,7 +5,9 @@ import Logo from "../images/jobcore-logo.png"
 const Navbar = () => (
     <nav className="navbar navbar-expand-lg justify-content-between px-10">
 
-        <a className="navbar-brand" href="#"><img src={Logo} /></a>
+        <Link to="/">
+            <a className="navbar-brand" href="#"><img src={Logo} /></a>
+        </Link>
 
         <div>
             <div className="text-right">
@@ -23,7 +25,10 @@ const Navbar = () => (
                         <span className="sr-only">(current)</span>
                     </a>
                 </Link>
-                <a className="link px-3" href="#">Positions</a>
+                <Link to="/positions">
+                    <a className="link px-3" href="#">Positions</a>
+                </Link>
+                
                 <button className="btn radius btn-darkgreen my-2 ml-5 px-4"
                     type="submit">Get Started</button>
             </div>
