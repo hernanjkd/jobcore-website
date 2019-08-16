@@ -1,6 +1,6 @@
 import React from "react"
 
-// assets
+//assets
 import Logo from "../images/jobcore-logo-green.png"
 import Google from "../images/google-play-green.png"
 import App from "../images/app-store-green.png"
@@ -14,7 +14,8 @@ const Footer = () => (
             <a href="#"><img className="pb-4" src={Logo} /></a>
             <div>All Rights Reserved © jobcore.co</div>
             <div className="pb-4">(305)555-8473</div>
-            <a href="#">Terms & Conditions</a> /
+            <a href="#">Terms & Conditions</a>
+            <span className="px-2">/</span>
             <a href="#">Privacy Policy</a>
         </div>
 

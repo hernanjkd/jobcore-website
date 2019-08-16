@@ -17,6 +17,10 @@ a {
   text-decoration: none;
   color: black;
 }
+a:hover {
+  color: rgb(17, 186, 192);
+  text-decoration: none;
+}
 
 .form-control {
   width: 300px !important;

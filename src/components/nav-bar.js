@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import Logo from "../images/jobcore-logo.png"
 
 const Navbar = () => (
@@ -17,9 +18,12 @@ const Navbar = () => (
                 </small>
             </div>
             <div>
-                <a className="link px-3" href="#">Job Seekers<span className="sr-only">(current)</span></a>
-
-                <a className="link px-3 text-brightblue" href="#">Positions</a>
+                <Link to="/job-seekers">
+                    <a className="link px-3" href="#">Job Seekers
+                        <span className="sr-only">(current)</span>
+                    </a>
+                </Link>
+                <a className="link px-3" href="#">Positions</a>
                 <button className="btn radius btn-darkgreen my-2 ml-5 px-4"
                     type="submit">Get Started</button>
             </div>
