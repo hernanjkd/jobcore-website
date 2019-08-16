@@ -18,15 +18,8 @@ a {
   color: black;
 }
 
-input {
-  height: 45px;
-  width: 200px;
-}
-
-input::placeholder {
-  text-indent: 15px;
-  font-size: 11px;
-  color: gray;
+.form-control {
+  width: 300px !important;
 }
 
 footer {

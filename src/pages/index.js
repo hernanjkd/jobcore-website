@@ -37,10 +37,10 @@ const IndexPage = () => (
             <p>JobCore is where events are organized: A talent pool of curated workers and hundreds of companies
                     organizing events and hiring everyday.</p>
 
-            <div className="text-center pt-3">
-              <input type="text" placeholder="Enter Your Email" />
+            <div className="pt-3 d-flex align-items-center justify-content-center">
+              <input type="text" className="form-control d-inline" placeholder="Enter Your Email" />
 
-              <button className="btn radius btn-purple my-2 ml-2 px-4 py-2"
+              <button className="btn radius btn-purple my-2 ml-2 px-4 py-2 d-inline"
                 type="submit">Get Started</button>
             </div>
 
@@ -123,8 +123,8 @@ const IndexPage = () => (
       <p>Finding talent and jobs in the hospitality industry has never been easier.<br />
         Sign up today and give it a try!</p>
 
-      <div className="text-center pt-4">
-        <input type="text" placeholder="Enter Your Email" />
+      <div className="pt-4 d-flex align-items-center justify-content-center">
+        <input type="text" className="form-control" placeholder="Enter Your Email" />
 
         <button className="btn radius btn-purple my-2 ml-2 px-4 py-2"
           type="submit">Get Started</button>
@@ -197,11 +197,12 @@ const IndexPage = () => (
 
       <p className="pb-4">Sign up today and experience the difference. It's fast and easy!</p>
 
-      <input type="text" placeholder="Enter Your Email" />
+      <div className="d-flex align-items-center justify-content-center">
+        <input type="text" className="form-control" placeholder="Enter Your Email" />
 
-      <button className="btn radius btn-purple my-2 ml-2 px-4 py-2"
-        type="submit">Get Started</button>
-
+        <button className="btn radius btn-purple my-2 ml-2 px-4 py-2"
+          type="submit">Get Started</button>
+      </div>
     </div>
 
 
