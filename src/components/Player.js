@@ -2,14 +2,14 @@ import React, { useState } from "react";
 
 const Player = ({
   video,
-  autoplay,
+  autoplay=1,
   rel,
   modest,
   placeholder,
-  height,
-  tittle,
+  height="100%",
+  tittle="My super video",
   style,
-  controls
+  controls=0
 }) => {
   const [status, setStatus] = useState("idle");
 
@@ -17,7 +17,7 @@ const Player = ({
     <div
       style={{
         width: "100%",
-        height: height || "100%",
+        height: height,
         display: "inline-block",
         backgroundSize: `cover`,
         textAlign: "center",
@@ -29,9 +29,9 @@ const Player = ({
       {status === "idle" ? (
         <div style={{ display: "inline-block" }}>
           <div
-            onClick={e => setStatus("playing")}
+            onClick={() => setStatus("playing")}
             style={{
-              height: height || "100%",
+              height: height,
               display: "table-cell",
               verticalAlign: "middle"
             }}
@@ -51,9 +51,8 @@ const Player = ({
         </div>
       ) : (
         <iframe
-          title={tittle || "My super video"}
-          src={`https://www.youtube.com/embed/${video}?autoplay=${autoplay ||
-            1}&rel=${rel}&modestbranding=${modest}&controls=${controls || 0}&showinfo=${controls || 0}`}
+          title={tittle}
+          src={`https://www.youtube.com/embed/${video}?autoplay=${autoplay}&rel=${rel}&modestbranding=${modest}&controls=${controls}&showinfo=${controls}`}
           className="player"
           type="text/html"
           width="100%"

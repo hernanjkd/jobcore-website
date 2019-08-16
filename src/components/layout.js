@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
       <div className="container-fluid px-0 mt-2">
         <Navbar />
         <main>{children}</main>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </>
   )

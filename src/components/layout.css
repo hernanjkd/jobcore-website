@@ -29,6 +29,26 @@ input::placeholder {
   color: gray;
 }
 
+footer {
+  background-image: url('../images/footer-green.png');
+  padding: 8em;
+  font-size: 12px;
+}
+footer strong {
+  font-size: 16px;
+}
+footer ul {
+  list-style-image: url('../images/footer-arrow.png');
+
+}
+footer li {
+  margin-top: 13px;
+  margin-left: -10px;
+}
+footer a {
+  color: rgb(238, 238, 238);
+}
+
 .purple-checkmark {
   list-style-image: url('../images/purple-checkmark.png');
 }
@@ -76,6 +96,12 @@ input::placeholder {
 
 .w-250px {
   width: 250px;
+}
+
+.tiny-arrows {
+  font-size: 7px;
+  padding-right: 3px;
+  line-height: 2.5;
 }
 
 /* 

@@ -10,8 +10,10 @@ const Navbar = () => (
             <div className="text-right">
                 <small>
                     <span className="pr-4">(305)555-8473</span>
-                    <a className="link px-2 pr-4" href="#">My Account</a>
-                    <a className="link px-2" href="#">Sign In</a>
+                    <a className="link px-2 pr-4" href="#"><span className="text-brightblue tiny-arrows">▶
+                        </span>My Account</a>
+                    <a className="link px-2" href="#"><span className="text-brightblue tiny-arrows">▶
+                        </span>Sign In</a>
                 </small>
             </div>
             <div>
