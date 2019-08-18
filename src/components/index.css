@@ -1,111 +1,116 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
 
 body {
-  font-family: 'Noto Sans JP', sans-serif;
-  color: rgb(65, 65, 65);
+    font-family: 'Noto Sans JP', sans-serif;
+    color: rgb(65, 65, 65);
 }
 
-h1, h3, h6 {
-  font-weight: bold;
+h1,
+h3,
+h6 {
+    font-weight: bold;
 }
 
 p {
-  font-size: 15px;
+    font-size: 15px;
 }
 
 a {
-  text-decoration: none;
-  color: black;
+    text-decoration: none;
+    color: black;
 }
 a:hover {
-  color: rgb(17, 186, 192);
-  text-decoration: none;
+    color: rgb(17, 186, 192);
+    text-decoration: none;
 }
 
 footer {
-  background-image: url('../images/footer-green.png');
-  padding: 8em;
-  font-size: 12px;
+    background-image: url('../images/footer-green.png');
+    padding: 8em;
+    font-size: 12px;
 }
 footer strong {
-  font-size: 16px;
+    font-size: 16px;
 }
 footer ul {
-  list-style-image: url('../images/footer-arrow.png');
-
+    list-style-image: url('../images/footer-arrow.png');
 }
 footer li {
-  margin-top: 13px;
-  margin-left: -10px;
+    margin-top: 13px;
+    margin-left: -10px;
 }
 footer a {
-  color: rgb(238, 238, 238);
+    color: rgb(238, 238, 238);
 }
 
 .form-control {
-  width: 300px !important;
+    width: 300px !important;
 }
 
 .purple-checkmark {
-  list-style-image: url('../images/purple-checkmark.png');
+    list-style-image: url('../images/purple-checkmark.png');
 }
 .purple-checkmark li {
-  margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 .radius {
-  border-radius: 30px 30px 30px 30px;
-  font-size: 15px;
+    border-radius: 30px 30px 30px 30px;
+    font-size: 15px;
 }
 
 .px-10 {
-  padding-left: 10em;
-  padding-right: 10em;
+    padding-left: 10em;
+    padding-right: 10em;
 }
 
 .px-15 {
-  padding-left: 15em;
-  padding-right: 15em;
+    padding-left: 15em;
+    padding-right: 15em;
 }
 
 .py-10 {
-  padding-top: 80px;
-  padding-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .btn-purple {
-  background: rgb(163, 25, 163);
-  color: white;
+    background: rgb(163, 25, 163);
+    color: white;
 }
 
 .btn-darkgreen {
-  background: rgb(17, 116, 17);
-  color: white;
+    background: rgb(17, 116, 17);
+    color: white;
+}
+
+.text-purple {
+    color: rgb(163, 25, 163);
 }
 
 .text-brightblue {
-  color: rgb(17, 186, 192);
+    color: rgb(17, 186, 192);
 }
 
 .bg-lightgray {
-  background: rgb(240, 240, 240);
+    background: rgb(240, 240, 240);
 }
 
 .w-250px {
-  width: 250px;
+    width: 250px;
 }
 
 .tiny-arrows {
-  font-size: 7px;
-  padding-right: 3px;
-  line-height: 2.5;
+    font-size: 7px;
+    padding-right: 3px;
+    line-height: 2.5;
 }
 
 .positions-top-image {
-  width: 100%;
-  height: 500px;
-  background-image: url('https://www.mammamiaaa.it/wp-content/uploads/2019/05/MAD-banner-e1557141137732.jpg');
-  background-size: cover;
+    width: 100%;
+    height: 500px;
+    background-image: url('https://www.mammamiaaa.it/wp-content/uploads/2019/05/MAD-banner-e1557141137732.jpg');
+    background-size: cover;
 }
 
 /* 
