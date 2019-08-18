@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 body {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: rgb(65, 65, 65);
 }
 
@@ -114,9 +114,9 @@ footer a {
 }
 
 .position-card {
-    padding: 15px;
-    padding-top: 30px;
+    padding: 42px 17px 28px 17px;
     width: 260px;
+    text-align: left;
 }
 .position-card div {
     font-size: 11px;
@@ -135,7 +135,7 @@ footer a {
 }
 .position-card button {
     font-size: 9px;
-    padding: 2px 8px;
+    padding: 2px 12px;
 }
 .position-card small {
     font-size: 11px;
