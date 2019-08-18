@@ -5,8 +5,11 @@ import Layout from '../components/layout'
 import VerticalLinks from '../images/vertical-links.png'
 import JobCalendar from '../images/job-calendar.png'
 
+/* eslint-disable */
+
 const JobSeekers = () => (
     <Layout>
+        <div className="job-seekers-top-image"></div>
         <div className="container">
             <div className="row">
                 <div className="col-1">

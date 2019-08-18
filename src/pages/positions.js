@@ -2,9 +2,6 @@ import React from 'react'
 import Layout from '../components/layout'
 import PositionCard from '../components/position-card'
 
-//assets
-import Temp from '../images/positions.png'
-
 const Positions = () => (
     <Layout>
         <div className="positions-top-image text-light d-flex align-items-center">

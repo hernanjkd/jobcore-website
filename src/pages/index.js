@@ -17,6 +17,8 @@ import Screenshot from "../images/cell-screenshot.png"
 import Platform from "../images/platform-glance.png"
 import Reviews from "../images/reviews.png"
 
+/* eslint-disable */
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
