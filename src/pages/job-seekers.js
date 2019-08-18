@@ -9,8 +9,13 @@ import JobCalendar from '../images/job-calendar.png'
 
 const JobSeekers = () => (
     <Layout>
-        <div className="job-seekers-top-image"></div>
-        <div className="container">
+        <div className="job-seekers-top-image d-flex align-items-center px-10">
+            <div>
+                <h1>Events Coordinator in Miami</h1>
+                <h5>Ends in 3 Days 21h 33m 9s</h5>
+            </div>
+        </div>
+        <div className="container job-seekers-content my-5 px-5">
             <div className="row">
                 <div className="col-1">
                     <img src={VerticalLinks} />
@@ -58,8 +63,18 @@ const JobSeekers = () => (
                 </div>
 
                 <div className="col-3 text-center">
-                    <div className="border position-relative">
+                    <div className="border job-seekers-card py-4 px-3">
                         <h2 className="text-brightblue my-4">Apply Here</h2>
+
+                        <div className="d-flex justify-content-start text-left">
+                            <i class="fas fa-map-marker-alt text-purple mr-2 fa-lg"></i>
+                            <span>
+                                <div className="text-gray">Position</div>
+                                <div>Miami Beach, Florida</div>
+                            </span>
+                        </div>
+                        <i class="far fa-calendar-check text-purple mr-2 fa-lg"></i>
+                        <i class="far fa-address-card text-purple mr-2 fa-lg"></i>
 
                         <img className="mb-3" src={JobCalendar} />
 
