@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
+import PositionCard from '../components/position-card'
 
 //assets
 import Temp from '../images/positions.png'
@@ -22,14 +23,7 @@ const Positions = () => (
             <div>Want to find a job? We have 263</div>
         </div>
 
-        <div className="position-search">
-            <i class="fas fa-map-marker-alt fa-xs text-purple"></i>
-            <span className="text-muted font-small">Miami Beach</span>
-            <i class="far fa-calendar-check fa-xs text-purple"></i>
-            <span className="text-muted font-small">
-                $11.53 - $12.03 / Hour
-            </span>
-        </div>
+        <PositionCard />
 
         <div className="container text-center">
             <div className="row">

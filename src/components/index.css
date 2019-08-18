@@ -80,7 +80,7 @@ footer a {
 }
 
 .btn-darkgreen {
-    background: rgb(17, 116, 17);
+    background: rgb(17, 116, 108);
     color: white;
 }
 
@@ -111,6 +111,34 @@ footer a {
     height: 500px;
     background-image: url('https://www.mammamiaaa.it/wp-content/uploads/2019/05/MAD-banner-e1557141137732.jpg');
     background-size: cover;
+}
+
+.position-card {
+    padding: 15px;
+    padding-top: 30px;
+    width: 260px;
+}
+.position-card div {
+    font-size: 11px;
+}
+.position-card span {
+    color: rgb(194, 194, 194);
+}
+.position-card h6 {
+    margin: 10px 0;
+    font-size: 15px;
+}
+.position-card p {
+    margin: 40px 0;
+    font-size: 12px;
+    color: rgb(165, 165, 165);
+}
+.position-card button {
+    font-size: 9px;
+    padding: 2px 8px;
+}
+.position-card small {
+    font-size: 11px;
 }
 
 /* 
