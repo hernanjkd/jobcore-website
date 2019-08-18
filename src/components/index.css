@@ -112,6 +112,9 @@ footer a {
     background-image: url('https://www.mammamiaaa.it/wp-content/uploads/2019/05/MAD-banner-e1557141137732.jpg');
     background-size: cover;
 }
+.positions-top-image {
+    text-shadow: 1px 1px 6px black;
+}
 
 .position-card {
     padding: 42px 17px 28px 17px;
