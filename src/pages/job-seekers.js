@@ -1,9 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
 
-//assets
-import VerticalLinks from '../images/vertical-links.png'
-
 /* eslint-disable */
 
 const JobSeekers = () => (
@@ -16,12 +13,47 @@ const JobSeekers = () => (
         </div>
         <div className="container job-seekers-content my-5 px-5">
             <div className="row">
-                <div className="col-1">
-                    <img src={VerticalLinks} />
+                <div className="col-1 text-gray">
+                    <div className="font-size-11px mb-2">Share</div>
+                    <div className="border job-seekers-links">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                    <div
+                        style={{ top: '-1px' }}
+                        className="border job-seekers-links position-relative"
+                    >
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                    <div
+                        style={{ top: '-2px' }}
+                        className="border job-seekers-links position-relative"
+                    >
+                        <a href="#">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                    <div
+                        style={{ top: '-3px' }}
+                        className="border job-seekers-links position-relative"
+                    >
+                        <a href="#">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
                 </div>
 
                 <div className="col">
-                    <h4>Job Brief</h4>
+                    <button
+                        className="btn btn-small radius btn-darkgreen d-inline mb-3"
+                        type="submit"
+                    >
+                        Freelance
+                    </button>
+                    <h5>Job Brief</h5>
 
                     <p>
                         We are looking for a successful and enthuthiastic event
@@ -32,7 +64,7 @@ const JobSeekers = () => (
                         quality expectations.
                     </p>
 
-                    <h4 className="mt-5">Responsibilities</h4>
+                    <h5 className="mt-5">Responsibilities</h5>
 
                     <ul className="purple-checkmark">
                         <li>
