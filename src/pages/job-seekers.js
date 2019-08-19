@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
+import PositionCard from '../components/position-card'
 
 /* eslint-disable */
 
@@ -94,7 +95,7 @@ const JobSeekers = () => (
                 </div>
 
                 <div className="col-3">
-                    <div className="border job-seekers-card py-4 px-3 text-center">
+                    <div className="job-seekers-card border py-4 px-3 text-center">
                         <h2 className="text-brightblue my-4">Apply Here</h2>
 
                         <div className="d-flex align-items-center justify-content-start my-4">
@@ -155,6 +156,55 @@ const JobSeekers = () => (
                         </button>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div className="container my-5 py-5">
+            <h2 className="ml-5 pl-5">
+                Similar <span className="text-brightblue">Jobs</span>
+            </h2>
+            <div className="d-flex justify-content-around align-items-center my-4">
+                <a href="#">
+                    <i class="fas fa-arrow-circle-left fa-3x text-gray hover-highlight"></i>
+                </a>
+                <PositionCard
+                    data={{
+                        location: 'Miami Beach',
+                        amount: '$11.53 - $12.03',
+                        position: 'Bartenders',
+                        description: `Lorem ipsum dolor sit amet consect adipisicing elit. Volupta
+            enim delec saepe cumque totam dolor aut reprehenderit optio
+            itaque magni.`,
+                        type: 'Freelance',
+                        expiration: 'Ends in 3 Days 21h 24m 36s',
+                    }}
+                />
+                <PositionCard
+                    data={{
+                        location: 'Coral Gables',
+                        amount: '$11.53 - $12.03',
+                        position: 'Servers',
+                        description: `Lorem ipsum dolor sit amet consect adipisicing elit. Volupta
+            enim delec saepe cumque totam dolor aut reprehenderit optio
+            itaque magni.`,
+                        type: 'Part Time',
+                        expiration: 'Ends in 3 Days 21h 24m 36s',
+                    }}
+                />
+                <PositionCard
+                    data={{
+                        location: 'Key Biscayne',
+                        amount: '$11.53 - $12.03',
+                        position: 'Maids',
+                        description: `Lorem ipsum dolor sit amet consect adipisicing elit. Volupta
+            enim delec saepe cumque totam dolor aut reprehenderit optio
+            itaque magni.`,
+                        type: 'Full Time',
+                        expiration: 'Ends in 3 Days 21h 24m 36s',
+                    }}
+                />
+                <a href="#">
+                    <i class="fas fa-arrow-circle-right fa-3x text-gray hover-highlight"></i>
+                </a>
             </div>
         </div>
     </Layout>

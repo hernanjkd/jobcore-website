@@ -43,6 +43,10 @@ footer a {
     color: rgb(238, 238, 238);
 }
 
+.hover-highlight:hover {
+    color: rgb(17, 186, 192);
+}
+
 .form-control {
     width: 300px !important;
 }
@@ -128,12 +132,6 @@ footer a {
     font-size: 23px;
 }
 
-.tiny-arrows {
-    font-size: 7px;
-    padding-right: 3px;
-    line-height: 2.5;
-}
-
 .job-seekers-top-image,
 .positions-top-image {
     height: 450px;
@@ -155,7 +153,7 @@ footer a {
 }
 
 .job-seekers-card {
-    position: relative;
+    position: absolute;
     top: -200px;
     background: white;
 }
@@ -189,7 +187,7 @@ footer a {
 }
 .position-card button,
 .btn-small {
-    font-size: 9px;
+    font-size: 10px;
     padding: 2px 12px;
 }
 .position-card small {

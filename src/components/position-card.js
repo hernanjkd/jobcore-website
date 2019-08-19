@@ -18,7 +18,7 @@ const PositionCard = ({ data }) => (
 
         <p>{data.description}</p>
 
-        <div className="d-flex justify-content-between">
+        <div className="d-flex justify-content-between align-items-center">
             <button className="btn radius btn-darkgreen d-inline" type="submit">
                 {data.type}
             </button>
