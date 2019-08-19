@@ -183,9 +183,7 @@ const JobSeekers = () => (
                         location: 'Coral Gables',
                         amount: '$11.53 - $12.03',
                         position: 'Servers',
-                        description: `Lorem ipsum dolor sit amet consect adipisicing elit. Volupta
-            enim delec saepe cumque totam dolor aut reprehenderit optio
-            itaque magni.`,
+                        description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi tempore laborum aperiam officiis eos in esse saepe iusto nam.`,
                         type: 'Part Time',
                         expiration: 'Ends in 3 Days 21h 24m 36s',
                     }}
@@ -195,9 +193,7 @@ const JobSeekers = () => (
                         location: 'Key Biscayne',
                         amount: '$11.53 - $12.03',
                         position: 'Maids',
-                        description: `Lorem ipsum dolor sit amet consect adipisicing elit. Volupta
-            enim delec saepe cumque totam dolor aut reprehenderit optio
-            itaque magni.`,
+                        description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, nostrum eum consequuntur fuga sit nihil enim tempora ex.`,
                         type: 'Full Time',
                         expiration: 'Ends in 3 Days 21h 24m 36s',
                     }}

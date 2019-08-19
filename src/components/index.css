@@ -194,6 +194,14 @@ footer a {
     font-size: 11px;
 }
 
+.reviews {
+    border: 2px solid lightgray;
+    color: gray;
+    font-size: 14px;
+    padding: 24px;
+    text-align: left;
+}
+
 .round-links {
     display: inline-block;
     padding: 1px;
