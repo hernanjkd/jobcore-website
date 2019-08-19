@@ -3,7 +3,6 @@ import Layout from '../components/layout'
 
 //assets
 import VerticalLinks from '../images/vertical-links.png'
-import JobCalendar from '../images/job-calendar.png'
 
 /* eslint-disable */
 
@@ -62,21 +61,57 @@ const JobSeekers = () => (
                     </ul>
                 </div>
 
-                <div className="col-3 text-center">
-                    <div className="border job-seekers-card py-4 px-3">
+                <div className="col-3">
+                    <div className="border job-seekers-card py-4 px-3 text-center">
                         <h2 className="text-brightblue my-4">Apply Here</h2>
 
-                        <div className="d-flex justify-content-start text-left">
-                            <i class="fas fa-map-marker-alt text-purple mr-2 fa-lg"></i>
-                            <span>
-                                <div className="text-gray">Position</div>
-                                <div>Miami Beach, Florida</div>
+                        <div className="d-flex align-items-center justify-content-start my-4">
+                            <i class="fas fa-map-marker-alt text-purple mr-3 font-size-23px"></i>
+                            <span className="text-left">
+                                <div className="text-gray font-size-13px">
+                                    Position
+                                </div>
+                                <div className="font-size-15px">
+                                    Miami Beach, Florida
+                                </div>
                             </span>
                         </div>
-                        <i class="far fa-calendar-check text-purple mr-2 fa-lg"></i>
-                        <i class="far fa-address-card text-purple mr-2 fa-lg"></i>
+                        <div className="d-flex align-items-center justify-content-start my-4">
+                            <i class="far fa-calendar-check text-purple mr-3 font-size-23px"></i>
+                            <span className="text-left">
+                                <div className="text-gray font-size-13px">
+                                    Salary
+                                </div>
+                                <div className="font-size-15px">
+                                    $ 11.53 - $ 12.33 / Hour
+                                </div>
+                            </span>
+                        </div>
+                        <div className="d-flex align-items-center justify-content-start my-4">
+                            <i class="far fa-address-card text-purple mr-3 fa-lg"></i>
+                            <span className="text-left">
+                                <div className="text-gray font-size-13px">
+                                    Job Type
+                                </div>
+                                <div className="font-size-15px">
+                                    Contract - Part Time
+                                </div>
+                            </span>
+                        </div>
 
-                        <img className="mb-3" src={JobCalendar} />
+                        <div className="text-gray font-size-13px text-left">
+                            Category
+                        </div>
+                        <div className="font-size-15px text-left">
+                            Wedding Events & Organizers - Event Operators
+                        </div>
+
+                        <div className="text-gray font-size-12px text-left mt-4">
+                            Reference number
+                        </div>
+                        <div className="font-size-14px text-left">
+                            US_EN_99_038298_372849
+                        </div>
 
                         <h2 className="text-brightblue my-4">Apply Here</h2>
 

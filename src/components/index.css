@@ -100,8 +100,31 @@ footer a {
     background: rgb(240, 240, 240);
 }
 
+.w-100px {
+}
+
 .w-250px {
     width: 250px;
+}
+
+.font-size-12px {
+    font-size: 12px;
+}
+
+.font-size-13px {
+    font-size: 13px;
+}
+
+.font-size-14px {
+    font-size: 14px;
+}
+
+.font-size-15px {
+    font-size: 15px;
+}
+
+.font-size-23px {
+    font-size: 23px;
 }
 
 .tiny-arrows {
