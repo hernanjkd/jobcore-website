@@ -15,35 +15,35 @@ const JobSeekers = () => (
             <div className="row">
                 <div className="col-1 text-gray">
                     <div className="font-size-11px mb-2">Share</div>
-                    <div className="border job-seekers-links">
-                        <a href="#">
+                    <a href="#">
+                        <div className="border job-seekers-links">
                             <i class="fab fa-facebook-f"></i>
-                        </a>
-                    </div>
-                    <div
-                        style={{ top: '-1px' }}
-                        className="border job-seekers-links position-relative"
-                    >
-                        <a href="#">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div
+                            style={{ top: '-1px' }}
+                            className="border job-seekers-links position-relative"
+                        >
                             <i class="fab fa-twitter"></i>
-                        </a>
-                    </div>
-                    <div
-                        style={{ top: '-2px' }}
-                        className="border job-seekers-links position-relative"
-                    >
-                        <a href="#">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div
+                            style={{ top: '-2px' }}
+                            className="border job-seekers-links position-relative"
+                        >
                             <i class="fab fa-linkedin-in"></i>
-                        </a>
-                    </div>
-                    <div
-                        style={{ top: '-3px' }}
-                        className="border job-seekers-links position-relative"
-                    >
-                        <a href="#">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div
+                            style={{ top: '-3px' }}
+                            className="border job-seekers-links position-relative"
+                        >
                             <i class="fas fa-envelope"></i>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
                 </div>
 
                 <div className="col">

@@ -147,6 +147,12 @@ footer a {
 .job-seekers-content li {
     color: rgb(165, 165, 165);
 }
+.job-seekers-content a {
+    color: rgb(121, 121, 121);
+}
+.job-seekers-content a:hover {
+    color: rgb(17, 186, 192);
+}
 
 .job-seekers-card {
     position: relative;
@@ -159,12 +165,6 @@ footer a {
     padding: 10px;
     width: 50px;
     text-align: center;
-}
-.job-seekers-links a {
-    color: rgb(121, 121, 121);
-}
-.job-seekers-links a:hover {
-    color: rgb(17, 186, 192);
 }
 
 .position-card {
@@ -194,4 +194,24 @@ footer a {
 }
 .position-card small {
     font-size: 11px;
+}
+
+.round-links {
+    display: inline-block;
+    padding: 1px;
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 20px;
+}
+.round-links:hover {
+    background-color: rgb(17, 186, 192);
+}
+.round-links span {
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    background-image: url('../images/footer-green.png');
 }

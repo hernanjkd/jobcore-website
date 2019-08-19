@@ -4,7 +4,6 @@ import React from 'react'
 import Logo from '../images/jobcore-logo-green.png'
 import Google from '../images/google-play-green.png'
 import App from '../images/app-store-green.png'
-import Links from '../images/links.png'
 
 /* eslint-disable */
 
@@ -62,18 +61,34 @@ const Footer = () => (
 
         <div className="text-center pt-3">
             <div className="pb-4">
-                <span className="round-links">
-                    <span>
-                        <i class="fab fa-facebook-f"></i>
-                    </span>
+                <span className="round-links mr-3">
+                    <a href="#">
+                        <span className="d-flex align-items-center justify-content-center">
+                            <i class="fab fa-facebook-f"></i>
+                        </span>
+                    </a>
                 </span>
-
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-linkedin-in"></i>
-                <i class="fas fa-envelope"></i>
-                <div>
-                    <img src={Links} />
-                </div>
+                <span className="round-links mr-3">
+                    <a href="#">
+                        <span className="d-flex align-items-center justify-content-center">
+                            <i class="fab fa-twitter"></i>
+                        </span>
+                    </a>
+                </span>
+                <span className="round-links mr-3">
+                    <a href="#">
+                        <span className="d-flex align-items-center justify-content-center">
+                            <i class="fab fa-instagram"></i>
+                        </span>
+                    </a>
+                </span>
+                <span className="round-links">
+                    <a href="#">
+                        <span className="d-flex align-items-center justify-content-center">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                    </a>
+                </span>
             </div>
             <a href="#">
                 <img className="pr-2" height="45px" src={App} />
