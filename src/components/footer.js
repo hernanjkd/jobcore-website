@@ -62,7 +62,18 @@ const Footer = () => (
 
         <div className="text-center pt-3">
             <div className="pb-4">
-                <img src={Links} />
+                <span className="round-links">
+                    <span>
+                        <i class="fab fa-facebook-f"></i>
+                    </span>
+                </span>
+
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fas fa-envelope"></i>
+                <div>
+                    <img src={Links} />
+                </div>
             </div>
             <a href="#">
                 <img className="pr-2" height="45px" src={App} />
