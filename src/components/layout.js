@@ -1,35 +1,18 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
 import React from 'react'
 import PropTypes from 'prop-types'
-// import { useStaticQuery, graphql } from 'gatsby'
 
 import 'bootstrap/dist/css/bootstrap.css'
-
-import Navbar from './nav-bar'
-import Footer from './footer'
 import './fonts.css'
 import './theme.css'
 import './layout.css'
 import './spacing.css'
 
+import Navbar from './nav-bar'
+import Footer from './footer'
+
 /* eslint-disable */
 
 const Layout = ({ children }) => {
-    // const data = useStaticQuery(graphql`
-    //     query SiteTitleQuery {
-    //         site {
-    //             siteMetadata {
-    //                 title
-    //             }
-    //         }
-    //     }
-    // `)
-
     return (
         <>
             <div className="container-fluid px-0 mt-2">
