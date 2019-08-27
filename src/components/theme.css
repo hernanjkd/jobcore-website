@@ -1,0 +1,50 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: rgb(17, 186, 192);
+    text-decoration: none;
+}
+
+.btn-purple {
+    background: rgb(163, 25, 163);
+    color: white;
+}
+
+.btn-darkgreen {
+    background: rgb(17, 116, 108);
+    color: white;
+}
+
+.text-purple {
+    color: rgb(163, 25, 163);
+}
+
+.text-brightblue {
+    color: rgb(17, 186, 192);
+}
+
+.text-gray {
+    color: rgb(165, 165, 165);
+}
+
+.hover-highlight:hover {
+    color: rgb(17, 186, 192);
+}
+
+.purple-checkmark {
+    list-style-image: url('../images/purple-checkmark.png');
+}
+.purple-checkmark li {
+    margin-bottom: 5px;
+}
+
+.radius {
+    border-radius: 30px 30px 30px 30px;
+    font-size: 15px;
+}
+
+.bg-lightgray {
+    background: rgb(240, 240, 240);
+}

@@ -1,0 +1,22 @@
+.px-10 {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.px-15 {
+    padding-left: 15em;
+    padding-right: 15em;
+}
+
+.py-10 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.w-250px {
+    width: 250px;
+}
+
+.form-control {
+    width: 300px !important;
+}

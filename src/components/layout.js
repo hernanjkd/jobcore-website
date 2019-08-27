@@ -12,7 +12,10 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 import Navbar from './nav-bar'
 import Footer from './footer'
-import './index.css'
+import './fonts.css'
+import './theme.css'
+import './layout.css'
+import './spacing.css'
 
 /* eslint-disable */
 
