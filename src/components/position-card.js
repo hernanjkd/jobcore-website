@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const PositionCard = ({ data }) => (
-    <div className="position-card border">
+    <div className="position-card border mx-auto">
         <div className="d-flex justify-content-between">
             <div>
                 <i class="fas fa-map-marker-alt mr-1 text-purple"></i>

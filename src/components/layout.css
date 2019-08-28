@@ -111,12 +111,12 @@ nav button {
     background-image: url('../images/footer-green.png');
 }
 
-@media screen and (max-width: 1050px) {
-    .shrink-hide {
+@media screen and (max-width: 1000px) {
+    .s1000px-hide {
         display: none !important;
     }
 
-    .shrink-collapse {
+    .s1000px-collapse {
         margin-left: 0 !important;
         margin-right: 0 !important;
     }
@@ -128,8 +128,17 @@ nav button {
         flex-direction: column !important;
     }
 
+    footer {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
     .nav-top {
         text-align: center !important;
+    }
+
+    .s900px-hide {
+        display: none !important;
     }
 }
 

@@ -78,17 +78,17 @@ const Positions = () => (
             {rows.map((e, i) => {
                 return (
                     <div className="row my-2" key={i}>
-                        <div className="col shrink-hide" />
+                        <div className="col s1000px-hide" />
                         {data.map((e, i) => {
+                            let hide = i === 2 ? "s900px-hide" : "";
                             return (
-                                <div className="col my-2 shrink-collapse" key={i}>
-                                    <PositionCard
-                                        data={e}
-                                    />
+                                <div className={"col my-2 s1000px-collapse " + hide}
+                                    key={i}>
+                                    <PositionCard data={e} />
                                 </div>
                             )
                         })}
-                        <div className="col shrink-hide" />
+                        <div className="col s1000px-hide" />
                     </div>
                 )
             }

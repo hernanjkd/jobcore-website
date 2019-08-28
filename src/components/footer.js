@@ -19,46 +19,46 @@ const Footer = () => (
             <span className="px-2">/</span>
             <a href="#">Privacy Policy</a>
         </div>
+        <div className="d-flex justify-content-around">
+            <div>
+                <strong>Quick Links</strong>
+                <ul>
+                    <li>
+                        <a href="#">Job Seekers</a>
+                    </li>
+                    <li>
+                        <a href="#">Employers</a>
+                    </li>
+                    <li>
+                        <a href="#">Positions</a>
+                    </li>
+                    <li>
+                        <a href="#">Our Story</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
 
-        <div>
-            <strong>Quick Links</strong>
-            <ul>
-                <li>
-                    <a href="#">Job Seekers</a>
-                </li>
-                <li>
-                    <a href="#">Employers</a>
-                </li>
-                <li>
-                    <a href="#">Positions</a>
-                </li>
-                <li>
-                    <a href="#">Our Story</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
+            <div>
+                <strong>Resources</strong>
+                <ul>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">How to Apply (FAQ)</a>
+                    </li>
+                    <li>
+                        <a href="#">Case Studies</a>
+                    </li>
+                    <li>
+                        <a href="#">Prices</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-
-        <div>
-            <strong>Resources</strong>
-            <ul>
-                <li>
-                    <a href="#">Blog</a>
-                </li>
-                <li>
-                    <a href="#">How to Apply (FAQ)</a>
-                </li>
-                <li>
-                    <a href="#">Case Studies</a>
-                </li>
-                <li>
-                    <a href="#">Prices</a>
-                </li>
-            </ul>
-        </div>
-
         <div className="text-center pt-3">
             <div className="pb-4">
                 <span className="round-links mr-3">
