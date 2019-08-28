@@ -111,10 +111,25 @@ nav button {
     background-image: url('../images/footer-green.png');
 }
 
+@media screen and (max-width: 1050px) {
+    .shrink-hide {
+        display: none !important;
+    }
+
+    .shrink-collapse {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
+
 @media screen and (max-width: 900px) {
     nav {
         display: flex !important;
         flex-direction: column !important;
+    }
+
+    .nav-top {
+        text-align: center !important;
     }
 }
 

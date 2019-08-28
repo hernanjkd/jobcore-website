@@ -2,6 +2,37 @@ import React from 'react'
 import Layout from '../components/layout'
 import PositionCard from '../components/position-card'
 
+const data = [
+    {
+        location: 'Miami Beach',
+        amount: '$11.53 - $12.03',
+        position: 'Bartenders',
+        description: `Lorem ipsum dolor sit amet consect adipisicing elit. Volupta
+enim delec saepe cumque totam dolor aut reprehenderit optio
+itaque magni.`,
+        type: 'Freelance',
+        expiration: 'Ends in 3 Days 21h 24m 36s',
+    },
+    {
+        location: 'Coral Gables',
+        amount: '$11.53 - $12.03',
+        position: 'Servers',
+        description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi tempore laborum aperiam officiis eos in esse saepe iusto nam.`,
+        type: 'Part Time',
+        expiration: 'Ends in 3 Days 21h 24m 36s',
+    },
+    {
+        location: 'Key Biscayne',
+        amount: '$11.53 - $12.03',
+        position: 'Maids',
+        description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, nostrum eum consequuntur fuga sit nihil enim tempora ex.`,
+        type: 'Full Time',
+        expiration: 'Ends in 3 Days 21h 24m 36s',
+    }
+];
+
+const rows = [1, 2, 3, 4];
+
 const Positions = () => (
     <Layout>
         <div className="positions-top-image text-light d-flex align-items-center">
@@ -43,187 +74,25 @@ const Positions = () => (
             </div>
         </div>
 
-        <div className="container text-center my-5 py-5">
-            <div className="row my-2">
-                <div className="col" />
-                <div className="col my-2">
-                    <PositionCard
-                        data={{
-                            location: 'Miami Beach',
-                            amount: '$11.53 - $12.03',
-                            position: 'Bartenders',
-                            description: `Lorem ipsum dolor sit amet consect adipisicing elit. Volupta
-            enim delec saepe cumque totam dolor aut reprehenderit optio
-            itaque magni.`,
-                            type: 'Freelance',
-                            expiration: 'Ends in 3 Days 21h 24m 36s',
-                        }}
-                    />
-                </div>
-                <div className="col my-2">
-                    <PositionCard
-                        data={{
-                            location: 'Coral Gables',
-                            amount: '$11.53 - $12.03',
-                            position: 'Servers',
-                            description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi tempore laborum aperiam officiis eos in esse saepe iusto nam.`,
-                            type: 'Part Time',
-                            expiration: 'Ends in 3 Days 21h 24m 36s',
-                        }}
-                    />
-                </div>
-                <div className="col my-2">
-                    <PositionCard
-                        data={{
-                            location: 'Key Biscayne',
-                            amount: '$11.53 - $12.03',
-                            position: 'Maids',
-                            description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, nostrum eum consequuntur fuga sit nihil enim tempora ex.`,
-                            type: 'Full Time',
-                            expiration: 'Ends in 3 Days 21h 24m 36s',
-                        }}
-                    />
-                </div>
-                <div className="col" />
-            </div>
-            <div className="row my-2">
-                <div className="col" />
-                <div className="col my-2">
-                    <PositionCard
-                        data={{
-                            location: 'Miami Beach',
-                            amount: '$11.53 - $12.03',
-                            position: 'Bartenders',
-                            description: `Lorem ipsum dolor sit amet consect adipisicing elit. Volupta
-            enim delec saepe cumque totam dolor aut reprehenderit optio
-            itaque magni.`,
-                            type: 'Freelance',
-                            expiration: 'Ends in 3 Days 21h 24m 36s',
-                        }}
-                    />
-                </div>
-                <div className="col my-2">
-                    <PositionCard
-                        data={{
-                            location: 'Coral Gables',
-                            amount: '$11.53 - $12.03',
-                            position: 'Servers',
-                            description: `Lorem ipsum dolor sit amet consect adipisicing elit. Volupta
-            enim delec saepe cumque totam dolor aut reprehenderit optio
-            itaque magni.`,
-                            type: 'Part Time',
-                            expiration: 'Ends in 3 Days 21h 24m 36s',
-                        }}
-                    />
-                </div>
-                <div className="col my-2">
-                    <PositionCard
-                        data={{
-                            location: 'Key Biscayne',
-                            amount: '$11.53 - $12.03',
-                            position: 'Maids',
-                            description: `Lorem ipsum dolor sit amet consect adipisicing elit. Volupta
-            enim delec saepe cumque totam dolor aut reprehenderit optio
-            itaque magni.`,
-                            type: 'Full Time',
-                            expiration: 'Ends in 3 Days 21h 24m 36s',
-                        }}
-                    />
-                </div>
-                <div className="col" />
-            </div>
-            <div className="row my-2">
-                <div className="col" />
-                <div className="col my-2">
-                    <PositionCard
-                        data={{
-                            location: 'Miami Beach',
-                            amount: '$11.53 - $12.03',
-                            position: 'Bartenders',
-                            description: `Lorem ipsum dolor sit amet consect adipisicing elit. Volupta
-            enim delec saepe cumque totam dolor aut reprehenderit optio
-            itaque magni.`,
-                            type: 'Freelance',
-                            expiration: 'Ends in 3 Days 21h 24m 36s',
-                        }}
-                    />
-                </div>
-                <div className="col my-2">
-                    <PositionCard
-                        data={{
-                            location: 'Coral Gables',
-                            amount: '$11.53 - $12.03',
-                            position: 'Servers',
-                            description: `Lorem ipsum dolor sit amet consect adipisicing elit. Volupta
-            enim delec saepe cumque totam dolor aut reprehenderit optio
-            itaque magni.`,
-                            type: 'Part Time',
-                            expiration: 'Ends in 3 Days 21h 24m 36s',
-                        }}
-                    />
-                </div>
-                <div className="col my-2">
-                    <PositionCard
-                        data={{
-                            location: 'Key Biscayne',
-                            amount: '$11.53 - $12.03',
-                            position: 'Maids',
-                            description: `Lorem ipsum dolor sit amet consect adipisicing elit. Volupta
-            enim delec saepe cumque totam dolor aut reprehenderit optio
-            itaque magni.`,
-                            type: 'Full Time',
-                            expiration: 'Ends in 3 Days 21h 24m 36s',
-                        }}
-                    />
-                </div>
-                <div className="col" />
-            </div>
-            <div className="row my-2">
-                <div className="col" />
-                <div className="col my-2">
-                    <PositionCard
-                        data={{
-                            location: 'Miami Beach',
-                            amount: '$11.53 - $12.03',
-                            position: 'Bartenders',
-                            description: `Lorem ipsum dolor sit amet consect adipisicing elit. Volupta
-            enim delec saepe cumque totam dolor aut reprehenderit optio
-            itaque magni.`,
-                            type: 'Freelance',
-                            expiration: 'Ends in 3 Days 21h 24m 36s',
-                        }}
-                    />
-                </div>
-                <div className="col my-2">
-                    <PositionCard
-                        data={{
-                            location: 'Coral Gables',
-                            amount: '$11.53 - $12.03',
-                            position: 'Servers',
-                            description: `Lorem ipsum dolor sit amet consect adipisicing elit. Volupta
-            enim delec saepe cumque totam dolor aut reprehenderit optio
-            itaque magni.`,
-                            type: 'Part Time',
-                            expiration: 'Ends in 3 Days 21h 24m 36s',
-                        }}
-                    />
-                </div>
-                <div className="col my-2">
-                    <PositionCard
-                        data={{
-                            location: 'Key Biscayne',
-                            amount: '$11.53 - $12.03',
-                            position: 'Maids',
-                            description: `Lorem ipsum dolor sit amet consect adipisicing elit. Volupta
-            enim delec saepe cumque totam dolor aut reprehenderit optio
-            itaque magni.`,
-                            type: 'Full Time',
-                            expiration: 'Ends in 3 Days 21h 24m 36s',
-                        }}
-                    />
-                </div>
-                <div className="col" />
-            </div>
+        <div className="container-fluid text-center my-5 py-5">
+            {rows.map((e, i) => {
+                return (
+                    <div className="row my-2" key={i}>
+                        <div className="col shrink-hide" />
+                        {data.map((e, i) => {
+                            return (
+                                <div className="col my-2 shrink-collapse" key={i}>
+                                    <PositionCard
+                                        data={e}
+                                    />
+                                </div>
+                            )
+                        })}
+                        <div className="col shrink-hide" />
+                    </div>
+                )
+            }
+            )}
         </div>
     </Layout>
 )
