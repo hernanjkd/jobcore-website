@@ -140,6 +140,10 @@ nav button {
     .s900px-hide {
         display: none !important;
     }
+
+    .s900-mx-auto {
+        margin: auto;
+    }
 }
 
 @media screen and (max-width: 600px) {

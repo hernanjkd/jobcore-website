@@ -9,7 +9,7 @@ import App from '../images/app-store-green.png'
 
 const Footer = () => (
     <footer className="text-light d-flex justify-content-around">
-        <div className="pt-2">
+        <div className="s900-mx-auto py-2 mb-3">
             <a href="#">
                 <img className="pb-4" src={Logo} />
             </a>
@@ -19,8 +19,8 @@ const Footer = () => (
             <span className="px-2">/</span>
             <a href="#">Privacy Policy</a>
         </div>
-        <div className="d-flex justify-content-around">
-            <div>
+        <div className="d-flex justify-content-center">
+            <div className="mr-2">
                 <strong>Quick Links</strong>
                 <ul>
                     <li>
@@ -41,7 +41,7 @@ const Footer = () => (
                 </ul>
             </div>
 
-            <div>
+            <div className="ml-2">
                 <strong>Resources</strong>
                 <ul>
                     <li>

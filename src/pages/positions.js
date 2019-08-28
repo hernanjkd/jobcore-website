@@ -51,14 +51,14 @@ const Positions = () => (
                 </h4>
                 <div>Want to find a job? We have 263</div>
 
-                <div className="input-group py-5 px-10 w-100px">
+                <div className="input-group py-5 px-10 w-100">
                     <input
                         type="text"
-                        className="form-control border-0 rounded-0"
+                        className="form-control border-0 rounded-0 w-50"
                         placeholder="Keywords"
                         size="20"
                     />
-                    <select class="custom-select border-top-0 border-bottom-0 border-right-0 w-100px">
+                    <select class="custom-select border-top-0 border-bottom-0 border-right-0 w-25">
                         <option selected>Location</option>
                         <option value="1">Miami Beach</option>
                         <option value="2">Coral Gables</option>
