@@ -234,116 +234,119 @@ const IndexPage = () => (
             <div className="container px-5">
                 <div className="row">
                     <div className="col m-1 p-2">
-                        <div className="reviews">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Ipsa obcaecati adipisci cum nulla, ipsum odio
-                            fugit obcaecati sequi eius dicta officia vel quo
-                            numquam est, dolores magnam culpa ullam quas
-                            obcaecati perspiciatis, repellat nesciunt eum
-                            inventore. Aspernatur ipsum distinctio, sunt
-                            possimus ipsa iste placeat.
+                        <div className="w-280px mx-auto">
+                            <div className="reviews">
+                                Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Ipsa obcaecati adipisci cum nulla, ipsum odio
+                                fugit obcaecati sequi eius dicta officia vel quo
+                                numquam est, dolores magnam culpa ullam quas
+                                obcaecati perspiciatis, repellat nesciunt eum
+                                inventore. Aspernatur ipsum distinctio, sunt
+                                possimus ipsa iste placeat.
                         </div>
-                        <div className="d-flex justify-content-end align-items-center mt-3">
-                            <span className="text-left">
-                                <div>
-                                    <small
-                                        style={{
-                                            position: 'relative',
-                                            top: '4px',
-                                        }}
-                                    >
-                                        Tanya,
+                            <div className="d-flex justify-content-end align-items-center mt-3">
+                                <span className="text-left">
+                                    <div>
+                                        <small
+                                            style={{
+                                                position: 'relative',
+                                                top: '4px',
+                                            }}
+                                        >
+                                            Tanya,
                                     </small>
-                                </div>
+                                    </div>
 
-                                <div>
-                                    <small
-                                        style={{
-                                            position: 'relative',
-                                            top: '-4px',
-                                        }}
-                                        className="text-gray"
-                                    >
-                                        Victoria
+                                    <div>
+                                        <small
+                                            style={{
+                                                position: 'relative',
+                                                top: '-4px',
+                                            }}
+                                            className="text-gray"
+                                        >
+                                            Victoria
                                     </small>
-                                </div>
-                            </span>
-                            <img className="mr-3 ml-2" src={Review1} />
-                        </div>
+                                    </div>
+                                </span>
+                                <img className="mr-3 ml-2" src={Review1} />
+                            </div></div>
                     </div>
                     <div className="col m-1 p-2">
-                        <div className="reviews">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Accusantium aperiam sequi perspiciatis atque
-                            eligendi, culpa omnis sint cupiditate obcaecati
-                            voluptatum delectus ab illo inventore in. Excepturi
-                            voluptatibus accusantium facilis! Sit atque aliquam
-                            officia fugiat ullam nesciunt sed laborum dolorum a!
+                        <div className="w-280px mx-auto">
+                            <div className="reviews">
+                                Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Accusantium aperiam sequi perspiciatis atque
+                                eligendi, culpa omnis sint cupiditate obcaecati
+                                voluptatum delectus ab illo inventore in. Excepturi
+                                voluptatibus accusantium facilis! Sit atque aliquam
+                                officia fugiat ullam nesciunt sed laborum dolorum a!
                         </div>
-                        <div className="d-flex justify-content-end align-items-center mt-3">
-                            <span className="text-left">
-                                <div>
-                                    <small
-                                        style={{
-                                            position: 'relative',
-                                            top: '4px',
-                                        }}
-                                    >
-                                        Lopez,
+                            <div className="d-flex justify-content-end align-items-center mt-3">
+                                <span className="text-left">
+                                    <div>
+                                        <small
+                                            style={{
+                                                position: 'relative',
+                                                top: '4px',
+                                            }}
+                                        >
+                                            Lopez,
                                     </small>
-                                </div>
+                                    </div>
 
-                                <div>
-                                    <small
-                                        style={{
-                                            position: 'relative',
-                                            top: '-4px',
-                                        }}
-                                        className="text-gray"
-                                    >
-                                        Sofia
+                                    <div>
+                                        <small
+                                            style={{
+                                                position: 'relative',
+                                                top: '-4px',
+                                            }}
+                                            className="text-gray"
+                                        >
+                                            Sofia
                                     </small>
-                                </div>
-                            </span>
-                            <img className="mr-3 ml-2" src={Review2} />
-                        </div>
+                                    </div>
+                                </span>
+                                <img className="mr-3 ml-2" src={Review2} />
+                            </div></div>
                     </div>
                     <div className="col m-1 p-2">
-                        <div className="reviews">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing
-                            elit. Autem commodi quos obcaecati at placeat ut
-                            natus iure aut eius dolore culpa ullam, perferendis,
-                            aperiam nemo quibusdam magnam. Sequi cumque harum ex
-                            dolore incidunt culpa ullam laboriosam odit sit,
-                            necessitatibus, praesentium provident in?
+                        <div className="w-280px mx-auto">
+                            <div className="reviews">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing
+                                elit. Autem commodi quos obcaecati at placeat ut
+                                natus iure aut eius dolore culpa ullam, perferendis,
+                                aperiam nemo quibusdam magnam. Sequi cumque harum ex
+                                dolore incidunt culpa ullam laboriosam odit sit,
+                                necessitatibus, praesentium provident in?
                         </div>
-                        <div className="d-flex justify-content-end align-items-center mt-3">
-                            <span className="text-left">
-                                <div>
-                                    <small
-                                        style={{
-                                            position: 'relative',
-                                            top: '4px',
-                                        }}
-                                    >
-                                        Alfonso,
+                            <div className="d-flex justify-content-end align-items-center mt-3">
+                                <span className="text-left">
+                                    <div>
+                                        <small
+                                            style={{
+                                                position: 'relative',
+                                                top: '4px',
+                                            }}
+                                        >
+                                            Alfonso,
                                     </small>
-                                </div>
+                                    </div>
 
-                                <div>
-                                    <small
-                                        style={{
-                                            position: 'relative',
-                                            top: '-4px',
-                                        }}
-                                        className="text-gray"
-                                    >
-                                        John
+                                    <div>
+                                        <small
+                                            style={{
+                                                position: 'relative',
+                                                top: '-4px',
+                                            }}
+                                            className="text-gray"
+                                        >
+                                            John
                                     </small>
-                                </div>
-                            </span>
-                            <img className="mr-3 ml-2" src={Review3} />
-                        </div>
+                                    </div>
+                                </span>
+                                <img className="mr-3 ml-2" src={Review3} />
+                            </div></div>
                     </div>
                 </div>
             </div>
