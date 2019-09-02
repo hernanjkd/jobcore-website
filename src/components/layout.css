@@ -112,6 +112,10 @@ nav button {
     background-image: url('../images/footer-green.png');
 }
 
+.pr-9 {
+    margin-right: 9em;
+}
+
 @media screen and (max-width: 1000px) {
     footer {
         display: flex !important;
@@ -157,7 +161,7 @@ nav button {
     .s700px-hide {
         display: none !important;
     }
-    .footer-title-column {
+    .footer-title {
         display: flex !important;
         flex-direction: column !important;
     }

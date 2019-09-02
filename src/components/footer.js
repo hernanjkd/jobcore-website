@@ -9,8 +9,8 @@ import App from '../images/app-store-green.png'
 
 const Footer = () => (
     <footer className="text-light d-flex justify-content-around">
-        <div className="d-flex justify-content-around footer-title w-75">
-            <div className="s900-mx-auto py-2 mb-3">
+        <div className="d-flex justify-content-around footer-title">
+            <div className="s900-mx-auto py-2 mb-3 pr-9">
                 <a href="#">
                     <img className="pb-4" src={Logo} />
                 </a>
