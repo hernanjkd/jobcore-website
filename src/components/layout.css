@@ -21,10 +21,17 @@ nav button {
     margin-left: 4em;
 }
 
-.job-seekers-top-image,
-.positions-top-image {
+.gray-top-image {
     height: 450px;
     background-image: url('https://staticcrate.com/assets/img/categories/backgrounds_LOW_POLY_NO_TEXT.jpg');
+    background-size: 100% 100%;
+    text-shadow: 1px 1px 6px black;
+    color: white;
+}
+
+.pink-top-image {
+    height: 450px;
+    background-image: url('https://ak6.picdn.net/shutterstock/videos/3248236/thumb/1.jpg');
     background-size: 100% 100%;
     text-shadow: 1px 1px 6px black;
     color: white;
@@ -110,10 +117,6 @@ nav button {
     width: 36px;
     border-radius: 50%;
     background-image: url('../images/footer-green.png');
-}
-
-.pr-9 {
-    margin-right: 9em;
 }
 
 @media screen and (max-width: 1000px) {

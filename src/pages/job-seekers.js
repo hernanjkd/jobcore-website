@@ -6,7 +6,7 @@ import PositionCard from '../components/position-card'
 
 const JobSeekers = () => (
     <Layout>
-        <div className="job-seekers-top-image d-flex align-items-center px-10">
+        <div className="gray-top-image d-flex align-items-center px-10">
             <div>
                 <h1>Events Coordinator in Miami</h1>
                 <h5>Ends in 3 Days 21h 33m 9s</h5>

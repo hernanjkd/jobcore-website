@@ -48,3 +48,7 @@ a:hover {
 .bg-lightgray {
     background: rgb(240, 240, 240);
 }
+
+.bg-black-opacity {
+    background: rgb(0, 0, 0, 0.5);
+}

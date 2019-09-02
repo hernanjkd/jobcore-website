@@ -35,19 +35,15 @@ const rows = [1, 2, 3, 4];
 
 const Positions = () => (
     <Layout>
-        <div className="positions-top-image text-light d-flex align-items-center">
+        <div className="gray-top-image text-light d-flex align-items-center">
             <div className="text-center w-100 px-10">
                 <h1>
-                    <strong>
-                        Every Job In
+                    Every Job In
                         <span className="text-brightblue"> One Place</span>
-                    </strong>
                 </h1>
                 <h4>
-                    <strong>
-                        Your <span className="text-brightblue">Dream Job</span>{' '}
-                        Just A Click Away!
-                    </strong>
+                    Your <span className="text-brightblue">Dream Job</span>{' '}
+                    Just A Click Away!
                 </h4>
                 <div>Want to find a job? We have 263</div>
 
