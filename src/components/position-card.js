@@ -19,7 +19,7 @@ const PositionCard = ({ data }) => (
         <p>{data.description}</p>
 
         <div className="d-flex justify-content-between align-items-center">
-            <button className="btn radius btn-darkgreen d-inline" type="submit">
+            <button className="btn radius btn-darkgreen d-inline">
                 {data.type}
             </button>
             <small>{data.expiration}</small>

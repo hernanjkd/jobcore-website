@@ -14,7 +14,7 @@ const JobSeekers = () => (
         </div>
         <div className="container job-seekers-content my-5 px-5">
             <div className="row">
-                <div className="col-1 text-gray">
+                <div className="col-1 text-gray s800px-hide">
                     <div className="font-size-11px mb-2">Share</div>
                     <a href="#">
                         <div className="border job-seekers-links">
@@ -50,7 +50,6 @@ const JobSeekers = () => (
                 <div className="col">
                     <button
                         className="btn btn-small radius btn-darkgreen d-inline mb-3"
-                        type="submit"
                     >
                         Freelance
                     </button>
@@ -94,7 +93,7 @@ const JobSeekers = () => (
                     </ul>
                 </div>
 
-                <div className="col-3">
+                <div className="col-3 s1000px-hide">
                     <div className="job-seekers-card border py-4 px-3 text-center">
                         <h2 className="text-brightblue my-4">Apply Here</h2>
 
@@ -150,7 +149,6 @@ const JobSeekers = () => (
 
                         <button
                             className="btn radius btn-purple my-2 px-5 py-3"
-                            type="submit"
                         >
                             Get Started
                         </button>
@@ -166,38 +164,45 @@ const JobSeekers = () => (
                 <a href="#">
                     <i class="fas fa-arrow-circle-left fa-3x text-gray hover-highlight"></i>
                 </a>
-                <PositionCard
-                    data={{
-                        location: 'Miami Beach',
-                        amount: '$11.53 - $12.03',
-                        position: 'Bartenders',
-                        description: `Lorem ipsum dolor sit amet consect adipisicing elit. Volupta
+
+                <span>
+                    <PositionCard
+                        data={{
+                            location: 'Miami Beach',
+                            amount: '$11.53 - $12.03',
+                            position: 'Bartenders',
+                            description: `Lorem ipsum dolor sit amet consect adipisicing elit. Volupta
             enim delec saepe cumque totam dolor aut reprehenderit optio
             itaque magni.`,
-                        type: 'Freelance',
-                        expiration: 'Ends in 3 Days 21h 24m 36s',
-                    }}
-                />
-                <PositionCard
-                    data={{
-                        location: 'Coral Gables',
-                        amount: '$11.53 - $12.03',
-                        position: 'Servers',
-                        description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi tempore laborum aperiam officiis eos in esse saepe iusto nam.`,
-                        type: 'Part Time',
-                        expiration: 'Ends in 3 Days 21h 24m 36s',
-                    }}
-                />
-                <PositionCard
-                    data={{
-                        location: 'Key Biscayne',
-                        amount: '$11.53 - $12.03',
-                        position: 'Maids',
-                        description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, nostrum eum consequuntur fuga sit nihil enim tempora ex.`,
-                        type: 'Full Time',
-                        expiration: 'Ends in 3 Days 21h 24m 36s',
-                    }}
-                />
+                            type: 'Freelance',
+                            expiration: 'Ends in 3 Days 21h 24m 36s',
+                        }}
+                    />
+                </span>
+                <span className="s1000px-hide">
+                    <PositionCard
+                        data={{
+                            location: 'Coral Gables',
+                            amount: '$11.53 - $12.03',
+                            position: 'Servers',
+                            description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi tempore laborum aperiam officiis eos in esse saepe iusto nam.`,
+                            type: 'Part Time',
+                            expiration: 'Ends in 3 Days 21h 24m 36s',
+                        }}
+                    />
+                </span>
+                <span className="s700px-hide">
+                    <PositionCard
+                        data={{
+                            location: 'Key Biscayne',
+                            amount: '$11.53 - $12.03',
+                            position: 'Maids',
+                            description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, nostrum eum consequuntur fuga sit nihil enim tempora ex.`,
+                            type: 'Full Time',
+                            expiration: 'Ends in 3 Days 21h 24m 36s',
+                        }}
+                    />
+                </span>
                 <a href="#">
                     <i class="fas fa-arrow-circle-right fa-3x text-gray hover-highlight"></i>
                 </a>

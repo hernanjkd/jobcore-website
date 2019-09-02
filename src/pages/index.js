@@ -50,7 +50,6 @@ const IndexPage = () => (
 
                             <button
                                 className="btn radius btn-purple my-2 ml-2 px-4 py-2 d-inline"
-                                type="submit"
                             >
                                 Get Started
                             </button>
@@ -165,7 +164,6 @@ const IndexPage = () => (
 
                 <button
                     className="btn radius btn-purple my-2 ml-2 px-4 py-2"
-                    type="submit"
                 >
                     Get Started
                 </button>
@@ -205,7 +203,6 @@ const IndexPage = () => (
 
             <button
                 className="btn radius btn-purple mt-3 my-2 ml-2 px-5 py-3"
-                type="submit"
             >
                 Get Started
             </button>
@@ -370,7 +367,6 @@ const IndexPage = () => (
 
                 <button
                     className="btn radius btn-purple my-2 ml-2 px-4 py-2"
-                    type="submit"
                 >
                     Get Started
                 </button>
