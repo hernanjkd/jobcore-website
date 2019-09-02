@@ -21,6 +21,10 @@
     width: 280px;
 }
 
+.w-400px {
+    width: 400px;
+}
+
 .form-control {
     width: 300px !important;
 }
