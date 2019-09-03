@@ -25,6 +25,10 @@
     width: 400px;
 }
 
+.w-800px-max {
+    max-width: 800px;
+}
+
 .form-control {
     width: 300px !important;
 }

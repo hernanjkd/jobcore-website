@@ -17,9 +17,13 @@ const Footer = () => (
                 </a>
                 <div>All Rights Reserved © jobcore.co</div>
                 <div className="pb-4">(305)555-8473</div>
-                <a href="#">Terms & Conditions</a>
+                <Link to="/terms">
+                    <a>Terms & Conditions</a>
+                </Link>
                 <span className="px-2">/</span>
-                <a href="#">Privacy Policy</a>
+                <Link to="/privacy">
+                    <a>Privacy Policy</a>
+                </Link>
             </div>
             <div className="d-flex justify-content-center">
                 <div className="mr-2">
