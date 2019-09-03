@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 //assets
 import Logo from '../images/jobcore-logo-green.png'
@@ -25,19 +26,27 @@ const Footer = () => (
                     <strong>Quick Links</strong>
                     <ul>
                         <li>
-                            <a href="#">Job Seekers</a>
+                            <Link to="/job-seekers">
+                                <a>Job Seekers</a>
+                            </Link>
                         </li>
                         <li>
                             <a href="#">Employers</a>
                         </li>
                         <li>
-                            <a href="#">Positions</a>
+                            <Link to="/positions">
+                                <a>Positions</a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#">Our Story</a>
+                            <Link to="/about">
+                                <a>Our Story</a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#">Contact</a>
+                            <Link to="/contact">
+                                <a>Contact</a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
