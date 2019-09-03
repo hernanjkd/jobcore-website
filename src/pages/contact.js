@@ -7,7 +7,7 @@ const Contact = () => (
     <Layout>
         <div className="pink-top-image text-light d-flex align-items-center">
             <div className="text-center w-100 px-10">
-                <h1>
+                <h1 className="font-size-4em">
                     <span className="p-2 px-4 bg-black-opacity">
                         Contact <span className="text-brightblue"> Us</span>
                     </span>

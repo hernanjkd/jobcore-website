@@ -11,7 +11,7 @@ import App from '../images/app-store-green.png'
 const Footer = () => (
     <footer className="text-light d-flex justify-content-around">
         <div className="d-flex justify-content-around footer-title">
-            <div className="s900-mx-auto py-2 mb-3 pr-9">
+            <div className="s700-mx-auto py-2 mb-3 pr-9">
                 <a href="#">
                     <img className="pb-4" src={Logo} />
                 </a>
@@ -26,7 +26,7 @@ const Footer = () => (
                 </Link>
             </div>
             <div className="d-flex justify-content-center">
-                <div className="mr-2">
+                <div className="mr-4">
                     <strong>Quick Links</strong>
                     <ul>
                         <li>

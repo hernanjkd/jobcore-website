@@ -168,6 +168,14 @@ nav button {
         display: flex !important;
         flex-direction: column !important;
     }
+
+    .s700-mx-auto {
+        margin: auto;
+    }
+
+    .pr-9 {
+        padding-right: 0 !important;
+    }
 }
 
 @media screen and (max-width: 600px) {
