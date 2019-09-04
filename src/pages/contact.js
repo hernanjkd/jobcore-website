@@ -15,11 +15,23 @@ const Contact = () => (
             </div>
         </div>
 
-        <div className="container my-5">
-            <div className="mx-auto w-400px py-5">
+        <div className="my-5">
+            <form className="py-5 shadow">
+                <h2>Get In Touch</h2>
+                <div className="form-row">
+                    <input className="form-control" type="text" placeholder="First Name" />
+                    <input className="form-control" type="text" placeholder="Last Name" />
+                </div>
+                <div className="form-group">
+                    <input style={{ width: "700px" }} className="form-control form-group-lg" type="text" placeholder="Your Email" />
+                </div>
+                <textarea className="form-control" type="text" placeholder="Your Message" />
+            </form>
+            <div className="w-500px py-5">
 
             </div>
         </div>
+
     </Layout>
 )
 

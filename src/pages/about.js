@@ -46,7 +46,7 @@ const About = () => (
 
         <div className="text-center px-10 my-5 pb-5 pt-5">
             <h1>How We <span className="text-brightblue">Work</span></h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam tenetur ullam asperiores possimus pariatur assumenda quae.</p>
+            <p className="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam tenetur ullam asperiores possimus pariatur assumenda quae.</p>
             <div className="d-flex justify-content-center s900-display-column">
                 <div className="shadow w-300px m-3 p-3 s900-mx-auto">
                     <img className="m-3" src={StepOne} />
