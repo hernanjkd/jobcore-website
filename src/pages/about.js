@@ -2,6 +2,9 @@ import React from 'react'
 import Layout from '../components/layout'
 
 import PhoneApp from '../images/phone-app.png'
+import StepOne from '../images/step-one.png'
+import StepTwo from '../images/step-two.png'
+import StepThree from '../images/step-three.png'
 
 /* eslint-disable */
 
@@ -46,14 +49,17 @@ const About = () => (
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam tenetur ullam asperiores possimus pariatur assumenda quae.</p>
             <div className="d-flex justify-content-center s900-display-column">
                 <div className="shadow w-300px m-3 p-3 s900-mx-auto">
+                    <img className="m-3" src={StepOne} />
                     <h4>Step One</h4>
                     <p className="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, ullam</p>
                 </div>
                 <div className="shadow w-300px m-3 p-3 s900-mx-auto">
+                    <img className="m-3" src={StepTwo} />
                     <h4>Step Two</h4>
                     <p className="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, ullam</p>
                 </div>
                 <div className="shadow w-300px m-3 p-3 s900-mx-auto">
+                    <img className="m-3" src={StepThree} />
                     <h4>Step Three</h4>
                     <p className="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, ullam</p>
                 </div>
