@@ -1,36 +1,48 @@
+:root {
+    --brightblue: rgb(17, 186, 192);
+    --purple: rgb(163, 25, 163);
+    --darkgreen: rgb(17, 116, 108);
+    --gray: rgb(165, 165, 165);
+    --lightgray: rgb(240, 240, 240);
+}
+
 a {
     text-decoration: none;
     color: black;
 }
 a:hover {
-    color: rgb(17, 186, 192);
+    color: var(--brightblue);
     text-decoration: none;
 }
 
 .btn-purple {
-    background: rgb(163, 25, 163);
+    background: var(--purple);
     color: white;
 }
 
 .btn-darkgreen {
-    background: rgb(17, 116, 108);
+    background: var(--darkgreen);
     color: white;
 }
 
 .text-purple {
-    color: rgb(163, 25, 163);
+    color: var(--purple);
 }
 
 .text-brightblue {
-    color: rgb(17, 186, 192);
+    color: var(--brightblue);
 }
 
 .text-gray {
-    color: rgb(165, 165, 165);
+    color: var(--gray);
+}
+
+.text-white {
+    color: white;
 }
 
 .hover-highlight:hover {
-    color: rgb(17, 186, 192);
+    color: var(--brightblue);
 }
 
 .purple-checkmark {
@@ -46,7 +58,11 @@ a:hover {
 }
 
 .bg-lightgray {
-    background: rgb(240, 240, 240);
+    background: var(--lightgray);
+}
+
+.bg-brightblue-opacity {
+    background: rgba(17, 186, 192, 0.5);
 }
 
 .bg-black-opacity {

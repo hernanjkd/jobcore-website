@@ -14,7 +14,7 @@ const JobSeekers = () => (
         </div>
         <div className="container job-seekers-content my-5 px-5">
             <div className="row">
-                <div className="col-1 text-gray s800px-hide">
+                <div className="col-1 text-gray s800-hide">
                     <div className="font-size-11px mb-2">Share</div>
                     <a href="#">
                         <div className="border job-seekers-links">
@@ -93,7 +93,7 @@ const JobSeekers = () => (
                     </ul>
                 </div>
 
-                <div className="col-3 s1000px-hide">
+                <div className="col-3 s1000-hide">
                     <div className="job-seekers-card border py-4 px-3 text-center">
                         <h2 className="text-brightblue my-4">Apply Here</h2>
 
@@ -179,7 +179,7 @@ const JobSeekers = () => (
                         }}
                     />
                 </span>
-                <span className="s1000px-hide">
+                <span className="s1000-hide">
                     <PositionCard
                         data={{
                             location: 'Coral Gables',
@@ -191,7 +191,7 @@ const JobSeekers = () => (
                         }}
                     />
                 </span>
-                <span className="s700px-hide">
+                <span className="s700-hide">
                     <PositionCard
                         data={{
                             location: 'Key Biscayne',

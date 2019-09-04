@@ -125,11 +125,11 @@ nav button {
         flex-direction: column !important;
     }
 
-    .s1000px-hide {
+    .s1000-hide {
         display: none !important;
     }
 
-    .s1000px-collapse {
+    .s1000-collapse {
         margin-left: 0 !important;
         margin-right: 0 !important;
     }
@@ -145,32 +145,44 @@ nav button {
         text-align: center !important;
     }
 
-    .s900px-hide {
+    .s900-display-column {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .s900-hide {
         display: none !important;
     }
 
     .s900-mx-auto {
-        margin: auto;
+        margin-left: auto !important;
+        margin-right: auto !important;
     }
 }
 
 @media screen and (max-width: 800px) {
-    .s800px-hide {
+    .s800-hide {
         display: none !important;
+    }
+
+    .s800-display-column {
+        display: flex !important;
+        flex-direction: column !important;
     }
 }
 
 @media screen and (max-width: 700px) {
-    .s700px-hide {
+    .s700-hide {
         display: none !important;
     }
-    .footer-title {
+    .s700-display-column {
         display: flex !important;
         flex-direction: column !important;
     }
 
     .s700-mx-auto {
-        margin: auto;
+        margin-left: auto !important;
+        margin-right: auto !important;
     }
 
     .pr-9 {

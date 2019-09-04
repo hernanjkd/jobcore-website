@@ -192,8 +192,8 @@ const IndexPage = () => (
 
         <div className="bg-lightgray px-5 py-10 m-0 text-center">
             <h3 className="mb-1">
-                It's never been easier to{' '}
-                <span className="text-brightblue">find jobs and hire</span> in
+                It's never been easier to
+                <span className="text-brightblue"> find jobs and hire</span> in
                 the hospitality industry.
             </h3>
 

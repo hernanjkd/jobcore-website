@@ -10,7 +10,7 @@ import App from '../images/app-store-green.png'
 
 const Footer = () => (
     <footer className="text-light d-flex justify-content-around">
-        <div className="d-flex justify-content-around footer-title">
+        <div className="d-flex justify-content-around s700-display-column">
             <div className="s700-mx-auto py-2 mb-3 pr-9">
                 <a href="#">
                     <img className="pb-4" src={Logo} />
