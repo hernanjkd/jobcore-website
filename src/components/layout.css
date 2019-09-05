@@ -25,18 +25,20 @@ nav button {
     background-image: url('../images/platform-glance.png');
     background-size: contain;
     background-repeat: no-repeat;
-    width: 90%;
+    width: 75%;
     height: 20vw;
     margin: auto;
+    margin-top: 3vw;
 }
 
 .background-image-platform2 {
     background-image: url('../images/platform-glance2.png');
     background-size: contain;
     background-repeat: no-repeat;
-    width: 90%;
+    width: 70%;
     height: 40vw;
     margin: auto;
+    margin-top: 3vw;
 }
 
 .gray-top-image {
@@ -135,12 +137,6 @@ nav button {
     width: 36px;
     border-radius: 50%;
     background-image: url('../images/footer-green.png');
-}
-
-@media screen and (max-width: 1200px) {
-    .s1200-hide {
-        display: none !important;
-    }
 }
 
 @media screen and (max-width: 1000px) {
