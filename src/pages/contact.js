@@ -72,29 +72,7 @@ const Contact = () => (
             </div>
         </div>
 
-        <div className="bg-lightgray text-center">
-            <h3>Connect <span className="text-brightblue">With Us</span></h3>
-            <div className="d-flex justify-content-around">
-                <a className="w-150px hover-white" href="#">
-                    <div className="hover-bg-brightblue bg-white py-3 border shadow">
-                        <i className="fab fa-facebook-f fa-lg text-primary py-2"></i>
-                        <div>Facebook</div>
-                    </div>
-                </a>
-                <a className="w-150px hover-white" href="#">
-                    <div className="hover-bg-brightblue bg-white py-3 border shadow">
-                        <i class="fab fa-twitter fa-lg text-primary py-2"></i>
-                        <div>Twitter</div>
-                    </div>
-                </a>
-                <a className="w-150px hover-white" href="#">
-                    <div className="hover-bg-brightblue bg-white py-3 border shadow">
-                        <i class="fab fa-youtube fa-lg text-danger py-2"></i>
-                        <div>YouTube</div>
-                    </div>
-                </a>
-            </div>
-        </div>
+
 
     </Layout>
 )
