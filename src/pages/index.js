@@ -14,7 +14,7 @@ import Calendar from '../images/calendar.png'
 import Money from '../images/money.png'
 import Envelope from '../images/envelope.png'
 import Screenshot from '../images/cell-screenshot.png'
-import Platform from '../images/platform-glance.png'
+import Screenshot2 from '../images/cell-screenshot2.png'
 import Review1 from '../images/review1.png'
 import Review2 from '../images/review2.png'
 import Review3 from '../images/review3.png'
@@ -170,8 +170,28 @@ const IndexPage = () => (
             </div>
         </div>
 
-        <div className="py-10 px-15 text-left d-flex justify-content-around align-items-center">
-            <div>
+        <div className="pt-10 text-left d-flex justify-content-center align-items-center">
+            <img src={Screenshot2} />
+
+            <div className="ml-5">
+                <h3 className="ml-4">
+                    Find jobs in minutes and
+                    <br />
+                    <span className="text-brightblue"> get paid</span> faster
+                </h3>
+                <ul className="purple-checkmark text-left mt-3">
+                    <li>Setup your location, profile and preferences</li>
+                    <li>Start receiving invites to work on shifts based <br />on your preferences</li>
+                    <li>Apply to the invitations you like</li>
+                    <li>Get to work: clock-in and clock-out at the event</li>
+                    <li>Get paid in less than 24 hrs</li>
+                    <li>It is that simple!</li>
+                </ul>
+            </div>
+        </div>
+
+        <div className="py-10 text-left d-flex justify-content-center align-items-center">
+            <div className="mr-5">
                 <h3 className="ml-4">
                     Employers can manage
                     <br />
@@ -221,7 +241,9 @@ const IndexPage = () => (
                 in the hospitality industry on mobile and desktop.
             </p>
 
-            <img className="my-4 mx-auto" src={Platform} />
+
+            <div className="background-image-platform2" />
+
 
             <h3 className="my-4">
                 What our <span className="text-brightblue">customers</span> are
@@ -240,7 +262,7 @@ const IndexPage = () => (
                                 obcaecati perspiciatis, repellat nesciunt eum
                                 inventore. Aspernatur ipsum distinctio, sunt
                                 possimus ipsa iste placeat.
-                        </div>
+                            </div>
                             <div className="d-flex justify-content-end align-items-center mt-3">
                                 <span className="text-left">
                                     <div>
@@ -267,7 +289,8 @@ const IndexPage = () => (
                                     </div>
                                 </span>
                                 <img className="mr-3 ml-2" src={Review1} />
-                            </div></div>
+                            </div>
+                        </div>
                     </div>
                     <div className="col m-1 p-2">
                         <div className="w-280px mx-auto">
@@ -278,7 +301,7 @@ const IndexPage = () => (
                                 voluptatum delectus ab illo inventore in. Excepturi
                                 voluptatibus accusantium facilis! Sit atque aliquam
                                 officia fugiat ullam nesciunt sed laborum dolorum a!
-                        </div>
+                            </div>
                             <div className="d-flex justify-content-end align-items-center mt-3">
                                 <span className="text-left">
                                     <div>
@@ -305,9 +328,10 @@ const IndexPage = () => (
                                     </div>
                                 </span>
                                 <img className="mr-3 ml-2" src={Review2} />
-                            </div></div>
+                            </div>
+                        </div>
                     </div>
-                    <div className="col m-1 p-2">
+                    <div className="col m-1 p-2 s1200-hide">
                         <div className="w-280px mx-auto">
                             <div className="reviews">
                                 Lorem ipsum, dolor sit amet consectetur adipisicing
@@ -316,7 +340,7 @@ const IndexPage = () => (
                                 aperiam nemo quibusdam magnam. Sequi cumque harum ex
                                 dolore incidunt culpa ullam laboriosam odit sit,
                                 necessitatibus, praesentium provident in?
-                        </div>
+                            </div>
                             <div className="d-flex justify-content-end align-items-center mt-3">
                                 <span className="text-left">
                                     <div>
@@ -343,7 +367,8 @@ const IndexPage = () => (
                                     </div>
                                 </span>
                                 <img className="mr-3 ml-2" src={Review3} />
-                            </div></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

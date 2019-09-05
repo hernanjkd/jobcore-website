@@ -21,6 +21,24 @@ nav button {
     margin-left: 4em;
 }
 
+.background-image-platform {
+    background-image: url('../images/platform-glance.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 20vw;
+    margin: auto;
+}
+
+.background-image-platform2 {
+    background-image: url('../images/platform-glance2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 40vw;
+    margin: auto;
+}
+
 .gray-top-image {
     height: 450px;
     background-image: url('https://staticcrate.com/assets/img/categories/backgrounds_LOW_POLY_NO_TEXT.jpg');
@@ -119,6 +137,12 @@ nav button {
     background-image: url('../images/footer-green.png');
 }
 
+@media screen and (max-width: 1200px) {
+    .s1200-hide {
+        display: none !important;
+    }
+}
+
 @media screen and (max-width: 1000px) {
     .s1000-display-column {
         display: flex !important;
@@ -129,9 +153,14 @@ nav button {
         display: none !important;
     }
 
-    .s1000-collapse {
-        margin-left: 0 !important;
-        margin-right: 0 !important;
+    .s1000-collapse-margin {
+        margin-left: 1em !important;
+        margin-right: 1em !important;
+    }
+
+    .s1000-collapse-padding {
+        padding-left: 1em !important;
+        padding-right: 1em !important;
     }
 
     .nav-top {

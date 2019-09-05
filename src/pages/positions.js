@@ -78,7 +78,7 @@ const Positions = () => (
                         {data.map((e, i) => {
                             let hide = i === 2 ? "s900-hide" : "";
                             return (
-                                <div className={"col my-2 s1000-collapse " + hide}
+                                <div className={"col my-2 s1000-collapse-margin " + hide}
                                     key={i}>
                                     <PositionCard data={e} />
                                 </div>

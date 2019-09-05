@@ -9,8 +9,12 @@
 }
 
 .py-10 {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.pt-10 {
     padding-top: 80px;
-    padding-bottom: 80px;
 }
 
 .pr-9 {
