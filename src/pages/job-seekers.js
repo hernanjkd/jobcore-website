@@ -1,211 +1,378 @@
 import React from 'react'
+
 import Layout from '../components/layout'
-import PositionCard from '../components/position-card'
+import SEO from '../components/seo'
+import Player from '../components/Player'
+
+//assets
+import AppStore from '../images/app-store.png'
+import GooglePlay from '../images/google-play.png'
+import FindJobs from '../images/find-jobs.png'
+import Star from '../images/star.png'
+import Suitcase from '../images/suitcase.png'
+import Calendar from '../images/calendar.png'
+import Money from '../images/money.png'
+import OpenEnvelope from '../images/open-envelope.png'
+import Screenshot2 from '../images/cell-screenshot2.png'
+import Review1 from '../images/review1.png'
+import Review2 from '../images/review2.png'
+import Review3 from '../images/review3.png'
 
 /* eslint-disable */
 
 const JobSeekers = () => (
     <Layout>
-        <div className="gray-top-image d-flex align-items-center px-10">
-            <div>
-                <h1>Events Coordinator in Miami</h1>
-                <h5>Ends in 3 Days 21h 33m 9s</h5>
-            </div>
-        </div>
-        <div className="container job-seekers-content my-5 px-5">
-            <div className="row">
-                <div className="col-1 text-gray s800-hide">
-                    <div className="font-size-11px mb-2">Share</div>
-                    <a href="#">
-                        <div className="border job-seekers-links">
-                            <i class="fab fa-facebook-f"></i>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div
-                            style={{ top: '-1px' }}
-                            className="border job-seekers-links position-relative"
-                        >
-                            <i class="fab fa-twitter"></i>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div
-                            style={{ top: '-2px' }}
-                            className="border job-seekers-links position-relative"
-                        >
-                            <i class="fab fa-linkedin-in"></i>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div
-                            style={{ top: '-3px' }}
-                            className="border job-seekers-links position-relative"
-                        >
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                    </a>
-                </div>
+        <SEO title="Home" />
 
-                <div className="col">
-                    <button
-                        className="btn btn-small radius btn-darkgreen d-inline mb-3"
-                    >
-                        Freelance
-                    </button>
-                    <h5>Job Brief</h5>
+        <div className="bg-lightgray py-10 m-0">
+            <div className="container">
+                <div className="row">
+                    <div className="col-6 text-left">
+                        <h1 className="">
+                            Get work fast &{' '}
+                            <span className="text-brightblue">get paid </span>
+                            the same day
+                        </h1>
 
-                    <p>
-                        We are looking for a successful and enthuthiastic event
-                        planner to produce events from through conecption
-                        through the completion. Event coordinator
-                        responsibilities include providing outstanding customer
-                        service and organizing memorable events that meet
-                        quality expectations.
-                    </p>
+                        <p>
+                            JobCore is where events are organized: A talent pool
+                            of curated workers and hundreds of companies
+                            organizing events and hiring everyday.
+                        </p>
 
-                    <h5 className="mt-5">Responsibilities</h5>
+                        <div className="pt-3 d-flex align-items-center justify-content-center">
+                            <input
+                                type="text"
+                                className="form-control d-inline w-300px"
+                                placeholder="Enter Your Email"
+                            />
 
-                    <ul className="purple-checkmark">
-                        <li>
-                            Event planning, design and production while managing
-                            all project delivery elements whithin time limits
-                        </li>
-                        <li>
-                            Liaise with clients to identify their needs and to
-                            ensure customer satisfaction
-                        </li>
-                        <li>
-                            Conduct market research, gather information and
-                            negotiate contracts prior to closing any deals
-                        </li>
-                        <li>
-                            Provide feedback and periodic reports to
-                            stakeholders
-                        </li>
-                        <li>
-                            Propose ideas to improve services and event quality
-                        </li>
-                        <li>
-                            Ensure compliance with insurance, legal, health and
-                            safety obligations
-                        </li>
-                    </ul>
-                </div>
-
-                <div className="col-3 s1000-hide">
-                    <div className="job-seekers-card border py-4 px-3 text-center">
-                        <h2 className="text-brightblue my-4">Apply Here</h2>
-
-                        <div className="d-flex align-items-center justify-content-start my-4">
-                            <i class="fas fa-map-marker-alt text-purple mr-3 font-size-23px"></i>
-                            <span className="text-left">
-                                <div className="text-gray font-size-13px">
-                                    Position
-                                </div>
-                                <div className="font-size-15px">
-                                    Miami Beach, Florida
-                                </div>
-                            </span>
-                        </div>
-                        <div className="d-flex align-items-center justify-content-start my-4">
-                            <i class="far fa-calendar-check text-purple mr-3 font-size-23px"></i>
-                            <span className="text-left">
-                                <div className="text-gray font-size-13px">
-                                    Salary
-                                </div>
-                                <div className="font-size-15px">
-                                    $ 11.53 - $ 12.33 / Hour
-                                </div>
-                            </span>
-                        </div>
-                        <div className="d-flex align-items-center justify-content-start my-4">
-                            <i class="far fa-address-card text-purple mr-3 fa-lg"></i>
-                            <span className="text-left">
-                                <div className="text-gray font-size-13px">
-                                    Job Type
-                                </div>
-                                <div className="font-size-15px">
-                                    Contract - Part Time
-                                </div>
-                            </span>
+                            <button
+                                className="btn radius btn-purple my-2 ml-2 px-4 py-2 d-inline"
+                            >
+                                Get Started
+                            </button>
                         </div>
 
-                        <div className="text-gray font-size-13px text-left">
-                            Category
+                        <div className="text-center pt-5">
+                            <a className="mr-2" href="#">
+                                <img src={GooglePlay} />
+                            </a>
+                            <a href="#">
+                                <img src={AppStore} />
+                            </a>
                         </div>
-                        <div className="font-size-15px text-left">
-                            Wedding Events & Organizers - Event Operators
-                        </div>
+                    </div>
 
-                        <div className="text-gray font-size-12px text-left mt-4">
-                            Reference number
-                        </div>
-                        <div className="font-size-14px text-left">
-                            US_EN_99_038298_372849
-                        </div>
-
-                        <h2 className="text-brightblue my-4">Apply Here</h2>
-
-                        <button
-                            className="btn radius btn-purple my-2 px-5 py-3"
-                        >
-                            Get Started
-                        </button>
+                    <div className="col-6">
+                        <Player
+                            video="0gwvFV9OXuI"
+                            height={'300px'}
+                            style={{ backgroundColor: '#dcdbdb' }}
+                        />
                     </div>
                 </div>
             </div>
         </div>
-        <div className="container my-5 py-5">
-            <h2 className="ml-5 pl-5">
-                Similar <span className="text-brightblue">Jobs</span>
-            </h2>
-            <div className="d-flex justify-content-around align-items-center my-4">
-                <a href="#">
-                    <i class="fas fa-arrow-circle-left fa-3x text-gray hover-highlight"></i>
-                </a>
 
-                <span>
-                    <PositionCard
-                        data={{
-                            location: 'Miami Beach',
-                            amount: '$11.53 - $12.03',
-                            position: 'Bartenders',
-                            description: `Lorem ipsum dolor sit amet consect adipisicing elit. Volupta
-            enim delec saepe cumque totam dolor aut reprehenderit optio
-            itaque magni.`,
-                            type: 'Freelance',
-                            expiration: 'Ends in 3 Days 21h 24m 36s',
-                        }}
-                    />
-                </span>
-                <span className="s1000-hide">
-                    <PositionCard
-                        data={{
-                            location: 'Coral Gables',
-                            amount: '$11.53 - $12.03',
-                            position: 'Servers',
-                            description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi tempore laborum aperiam officiis eos in esse saepe iusto nam.`,
-                            type: 'Part Time',
-                            expiration: 'Ends in 3 Days 21h 24m 36s',
-                        }}
-                    />
-                </span>
-                <span className="s700-hide">
-                    <PositionCard
-                        data={{
-                            location: 'Key Biscayne',
-                            amount: '$11.53 - $12.03',
-                            position: 'Maids',
-                            description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, nostrum eum consequuntur fuga sit nihil enim tempora ex.`,
-                            type: 'Full Time',
-                            expiration: 'Ends in 3 Days 21h 24m 36s',
-                        }}
-                    />
-                </span>
-                <a href="#">
-                    <i class="fas fa-arrow-circle-right fa-3x text-gray hover-highlight"></i>
-                </a>
+        <div className="py-10 px-10 text-center">
+            <div className="container">
+                <h3>
+                    Finally a centralized{' '}
+                    <span className="text-brightblue">source of talents </span>
+                    and companies!
+                </h3>
+
+                <p className="pt-3">
+                    Sign up, setup your job preferences and start receiving
+                    invitations to work as Chef, Cook, <br />
+                    Bartender, Cleaning Staff or any other role surrounding
+                    hospitality.
+                </p>
+
+                <div className="mt-5 d-flex justify-content-between align-items-end">
+                    <div className="w-250px">
+                        <img src={FindJobs} />
+                        <h6 className="mt-2">Find Jobs</h6>
+                        <p className="text-secondary font-size-13px">
+                            Access to many jobs in South Florida and get hired some day.
+                        </p>
+                    </div>
+                    <div className="w-250px">
+                        <img src={OpenEnvelope} />
+                        <h6 className="mt-3">Receive Invitations</h6>
+                        <p className="text-secondary font-size-13px">
+                            Setup your job preferences to receive job invitations you want.
+                        </p>
+                    </div>
+                    <div className="w-250px">
+                        <img src={Suitcase} />
+                        <h6 className="mt-3">Get Hired</h6>
+                        <p className="text-secondary font-size-13px">
+                            Apply to jobs and get hired from your phone, schedule your work.
+                        </p>
+                    </div>
+                </div>
+
+                <div className="mt-5 d-flex justify-content-between align-items-end">
+                    <div className="w-250px">
+                        <img src={Calendar} />
+                        <h6 className="mt-1">Manage Schedule</h6>
+                        <p className="text-secondary font-size-13px">
+                            Use our mobile app to know where and when to start work.
+                        </p>
+                    </div>
+                    <div className="w-250px">
+                        <img src={Money} />
+                        <h6 className="mt-2">Paid Some Day</h6>
+                        <p className="text-secondary font-size-13px">
+                            Clock in/out & receive the money into your account in less than 24hrs.
+                        </p>
+                    </div>
+                    <div className="w-250px">
+                        <img src={Star} />
+                        <h6 className="mt-2">Rate Employers</h6>
+                        <p className="text-secondary font-size-13px">
+                            Find the best employers that have positive ratings.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div className="bg-lightgray px-10 py-10 m-0 text-center">
+            <h3 className="mb-2">
+                Finally a job platform for the
+                <span className="text-brightblue"> hospitality industry!</span>
+            </h3>
+
+            <p>
+                Finding talent and jobs in the hospitality industry has never
+                been easier.
+                <br />
+                Sign up today and give it a try!
+            </p>
+
+            <div className="mt-4 d-flex align-items-center justify-content-center">
+                <input
+                    type="text"
+                    className="form-control w-300px"
+                    placeholder="Enter Your Email"
+                />
+
+                <button
+                    className="btn radius btn-purple my-2 ml-2 px-4 py-2"
+                >
+                    Get Started
+                </button>
+            </div>
+        </div>
+
+        <div className="py-10 text-left d-flex justify-content-center align-items-center">
+            <img src={Screenshot2} />
+
+            <div className="ml-5">
+                <h3 className="ml-4">
+                    Find jobs in minutes and
+                    <br />
+                    <span className="text-brightblue"> get paid</span> faster
+                </h3>
+                <ul className="purple-checkmark text-left mt-3">
+                    <li>Setup your location, profile and preferences</li>
+                    <li>Start receiving invites to work on shifts based <br />on your preferences</li>
+                    <li>Apply to the invitations you like</li>
+                    <li>Get to work: clock-in and clock-out at the event</li>
+                    <li>Get paid in less than 24 hrs</li>
+                    <li>It is that simple!</li>
+                </ul>
+            </div>
+        </div>
+
+        <div className="bg-lightgray px-5 py-10 m-0 text-center">
+            <h3 className="mb-1">
+                It's never been easier to
+                <span className="text-brightblue"> find jobs and hire</span> in
+                the hospitality industry.
+            </h3>
+
+            <p>
+                Sign up today and experience the difference. It's fast and easy!
+            </p>
+
+            <button
+                className="btn radius btn-purple mt-3 my-2 ml-2 px-5 py-3"
+            >
+                Get Started
+            </button>
+        </div>
+
+        <div className="py-10 px-10 text-left text-center">
+            <h3 className="mb-2">
+                The <span className="text-brightblue">platform</span> at a
+                glance
+            </h3>
+
+            <p>
+                JobCore provides an easy to use end-to-end experience for
+                employers and job seekers
+                <br />
+                in the hospitality industry on mobile and desktop.
+            </p>
+
+
+            <div className="background-image-platform" />
+
+
+            <h3 className="my-4">
+                What our <span className="text-brightblue">customers</span> are
+                saying about us
+            </h3>
+
+            <div className="container px-5">
+                <div className="row">
+                    <div className="col m-1 p-2">
+                        <div className="w-280px mx-auto">
+                            <div className="reviews">
+                                Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Ipsa obcaecati adipisci cum nulla, ipsum odio
+                                fugit obcaecati sequi eius dicta officia vel quo
+                                numquam est, dolores magnam culpa ullam quas
+                                obcaecati perspiciatis, repellat nesciunt eum
+                                inventore. Aspernatur ipsum distinctio, sunt
+                                possimus ipsa iste placeat.
+                            </div>
+                            <div className="d-flex justify-content-end align-items-center mt-3">
+                                <span className="text-left">
+                                    <div>
+                                        <small
+                                            style={{
+                                                position: 'relative',
+                                                top: '4px',
+                                            }}
+                                        >
+                                            Tanya,
+                                    </small>
+                                    </div>
+
+                                    <div>
+                                        <small
+                                            style={{
+                                                position: 'relative',
+                                                top: '-4px',
+                                            }}
+                                            className="text-gray"
+                                        >
+                                            Victoria
+                                    </small>
+                                    </div>
+                                </span>
+                                <img className="mr-3 ml-2" src={Review1} />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col m-1 p-2">
+                        <div className="w-280px mx-auto">
+                            <div className="reviews">
+                                Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Accusantium aperiam sequi perspiciatis atque
+                                eligendi, culpa omnis sint cupiditate obcaecati
+                                voluptatum delectus ab illo inventore in. Excepturi
+                                voluptatibus accusantium facilis! Sit atque aliquam
+                                officia fugiat ullam nesciunt sed laborum dolorum a!
+                            </div>
+                            <div className="d-flex justify-content-end align-items-center mt-3">
+                                <span className="text-left">
+                                    <div>
+                                        <small
+                                            style={{
+                                                position: 'relative',
+                                                top: '4px',
+                                            }}
+                                        >
+                                            Lopez,
+                                    </small>
+                                    </div>
+
+                                    <div>
+                                        <small
+                                            style={{
+                                                position: 'relative',
+                                                top: '-4px',
+                                            }}
+                                            className="text-gray"
+                                        >
+                                            Sofia
+                                    </small>
+                                    </div>
+                                </span>
+                                <img className="mr-3 ml-2" src={Review2} />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col m-1 p-2 s1200-hide">
+                        <div className="w-280px mx-auto">
+                            <div className="reviews">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing
+                                elit. Autem commodi quos obcaecati at placeat ut
+                                natus iure aut eius dolore culpa ullam, perferendis,
+                                aperiam nemo quibusdam magnam. Sequi cumque harum ex
+                                dolore incidunt culpa ullam laboriosam odit sit,
+                                necessitatibus, praesentium provident in?
+                            </div>
+                            <div className="d-flex justify-content-end align-items-center mt-3">
+                                <span className="text-left">
+                                    <div>
+                                        <small
+                                            style={{
+                                                position: 'relative',
+                                                top: '4px',
+                                            }}
+                                        >
+                                            Alfonso,
+                                    </small>
+                                    </div>
+
+                                    <div>
+                                        <small
+                                            style={{
+                                                position: 'relative',
+                                                top: '-4px',
+                                            }}
+                                            className="text-gray"
+                                        >
+                                            John
+                                    </small>
+                                    </div>
+                                </span>
+                                <img className="mr-3 ml-2" src={Review3} />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 className="pt-5 mt-3">
+                It's never been easier{' '}
+                <span className="text-brightblue">find jobs and hire</span> in
+                the hospitality industry.
+            </h3>
+
+            <p className="mb-4">
+                Sign up today and experience the difference. It's fast and easy!
+            </p>
+
+            <div className="d-flex align-items-center justify-content-center">
+                <input
+                    type="text"
+                    className="form-control w-300px"
+                    placeholder="Enter Your Email"
+                />
+
+                <button
+                    className="btn radius btn-purple my-2 ml-2 px-4 py-2"
+                >
+                    Get Started
+                </button>
             </div>
         </div>
     </Layout>
