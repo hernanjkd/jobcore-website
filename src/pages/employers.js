@@ -7,8 +7,8 @@ import Player from '../components/Player'
 //assets
 import AppStore from '../images/app-store.png'
 import GooglePlay from '../images/google-play.png'
+import Clock from '../images/clock.png'
 import Magnify from '../images/magnifying-glass.png'
-import Star from '../images/star.png'
 import Suitcase from '../images/suitcase.png'
 import Calendar from '../images/calendar.png'
 import Money from '../images/money.png'
@@ -21,7 +21,7 @@ import Review3 from '../images/review3.png'
 
 /* eslint-disable */
 
-const IndexPage = () => (
+const Employers = () => (
     <Layout>
         <SEO title="Home" />
 
@@ -93,6 +93,13 @@ const IndexPage = () => (
 
                 <div className="mt-5 d-flex justify-content-between align-items-end">
                     <div className="w-250px">
+                        <img src={Suitcase} />
+                        <h6 className="mt-3">Publish Shifts</h6>
+                        <p className="text-secondary font-size-13px">
+                            Setup your job and preferences in a custom calendar.
+                        </p>
+                    </div>
+                    <div className="w-250px">
                         <img src={Magnify} />
                         <h6 className="mt-2">Find Talent</h6>
                         <p className="text-secondary font-size-13px">
@@ -102,40 +109,35 @@ const IndexPage = () => (
                     </div>
                     <div className="w-250px">
                         <img src={Calendar} />
-                        <h6 className="mt-3">Schedule Jobs</h6>
+                        <h6 className="mt-3">Manage Schedule</h6>
                         <p className="text-secondary font-size-13px">
-                            Receive live notifications on the best jobs for your preferences.
-                        </p>
-                    </div>
-                    <div className="w-250px">
-                        <img src={Suitcase} />
-                        <h6 className="mt-3">Get Hired</h6>
-                        <p className="text-secondary font-size-13px">
-                            Apply to jobs and get hired from your phone, schedule your work.
+                            Automatically send employees job location and shift
+                            times.
                         </p>
                     </div>
                 </div>
 
                 <div className="mt-5 d-flex justify-content-between align-items-end">
                     <div className="w-250px">
-                        <img src={Money} />
-                        <h6 className="mt-1">Manage Billing</h6>
+                        <img src={Clock} />
+                        <h6 className="mt-1">Clock In-Out</h6>
                         <p className="text-secondary font-size-13px">
-                            Weekly payroll reports with clock in/out payment information.
+                            Track employee performance with GPS located clock
+                            in-out features.
+                        </p>
+                    </div>
+                    <div className="w-250px">
+                        <img src={Money} />
+                        <h6 className="mt-2">Payroll Reports</h6>
+                        <p className="text-secondary font-size-13px">
+                            Instant payroll reports based on employee activity.
                         </p>
                     </div>
                     <div className="w-250px">
                         <img src={Envelope} />
-                        <h6 className="mt-2">Paid Some Day</h6>
+                        <h6 className="mt-2">Direct Payments</h6>
                         <p className="text-secondary font-size-13px">
-                            Clock in/out & receive the money into your account in less than 24hrs.
-                        </p>
-                    </div>
-                    <div className="w-250px">
-                        <img src={Star} />
-                        <h6 className="mt-2">Rate Talent</h6>
-                        <p className="text-secondary font-size-13px">
-                            Find the best talent and employers with positive ratings.
+                            Direct ACH payments to employee bank accounts.
                         </p>
                     </div>
                 </div>
@@ -375,4 +377,4 @@ const IndexPage = () => (
     </Layout>
 )
 
-export default IndexPage
+export default Employers
