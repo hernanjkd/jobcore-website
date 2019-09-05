@@ -72,25 +72,37 @@ const Contact = () => (
             </div>
         </div>
 
-        <div className="bg-lightgray text-center">
+        <div className="bg-lightgray text-center py-5 mt-5">
             <h3>Connect <span className="text-brightblue">With Us</span></h3>
-            <div className="d-flex justify-content-around">
-                <a className="w-150px hover-white" href="#">
+            <div className="d-flex justify-content-center pb-5 pt-3">
+                <a className="w-150px hover-white mx-2 " href="#">
                     <div className="hover-bg-brightblue bg-white py-3 border shadow">
                         <i className="fab fa-facebook-f fa-lg text-primary py-2"></i>
                         <div>Facebook</div>
                     </div>
                 </a>
-                <a className="w-150px hover-white" href="#">
+                <a className="w-150px hover-white mx-2 " href="#">
                     <div className="hover-bg-brightblue bg-white py-3 border shadow">
                         <i class="fab fa-twitter fa-lg text-primary py-2"></i>
                         <div>Twitter</div>
                     </div>
                 </a>
-                <a className="w-150px hover-white" href="#">
+                <a className="w-150px hover-white mx-2 " href="#">
+                    <div className="hover-bg-brightblue bg-white py-3 border shadow">
+                        <i class="fab fa-instagram fa-lg text-danger py-2"></i>
+                        <div>Instagram</div>
+                    </div>
+                </a>
+                <a className="w-150px hover-white mx-2 " href="#">
                     <div className="hover-bg-brightblue bg-white py-3 border shadow">
                         <i class="fab fa-youtube fa-lg text-danger py-2"></i>
                         <div>YouTube</div>
+                    </div>
+                </a>
+                <a className="w-150px hover-white mx-2 " href="#">
+                    <div className="hover-bg-brightblue bg-white py-3 border shadow">
+                        <i class="fab fa-linkedin-in fa-lg text-primary py-2"></i>
+                        <div>LinkedIn</div>
                     </div>
                 </a>
             </div>

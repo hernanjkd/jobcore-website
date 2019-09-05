@@ -120,7 +120,7 @@ nav button {
 }
 
 @media screen and (max-width: 1000px) {
-    footer {
+    .s1000-display-column {
         display: flex !important;
         flex-direction: column !important;
     }
@@ -133,18 +133,13 @@ nav button {
         margin-left: 0 !important;
         margin-right: 0 !important;
     }
-}
-
-@media screen and (max-width: 900px) {
-    nav {
-        display: flex !important;
-        flex-direction: column !important;
-    }
 
     .nav-top {
         text-align: center !important;
     }
+}
 
+@media screen and (max-width: 900px) {
     .s900-display-column {
         display: flex !important;
         flex-direction: column !important;
@@ -190,6 +185,16 @@ nav button {
         margin-right: auto !important;
     }
 
+    .s700-collapse-padding {
+        padding-left: 1em !important;
+        padding-right: 1em !important;
+    }
+
+    .s700-collapse-margin {
+        margin-left: 1em !important;
+        margin-right: 1em !important;
+    }
+
     .pr-9 {
         padding-right: 0 !important;
     }
@@ -198,21 +203,5 @@ nav button {
 @media screen and (max-width: 600px) {
     nav button {
         margin-left: 0;
-    }
-
-    .px-2,
-    .px-3,
-    .px-4,
-    .px-5 {
-        padding-left: 1em !important;
-        padding-right: 1em !important;
-    }
-
-    .mx-2,
-    .mx-3,
-    .mx-4,
-    .mx-5 {
-        margin-left: 1em !important;
-        margin-right: 1em !important;
     }
 }

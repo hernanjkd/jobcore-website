@@ -5,7 +5,7 @@ import Logo from '../images/jobcore-logo.png'
 /* eslint-disable */
 
 const Navbar = () => (
-    <nav className="navbar justify-content-between px-10">
+    <nav className="navbar justify-content-between px-10 s1000-display-column s700-collapse-padding">
         <Link to="/">
             <img className="navbar-brand" src={Logo} />
         </Link>
@@ -30,18 +30,23 @@ const Navbar = () => (
             </div>
             <div>
                 <Link to="/job-seekers">
-                    <a className="link px-4">
+                    <a className="link px-3 s700-collapse-padding">
                         Job Seekers
                     </a>
                 </Link>
+                <Link to="/employers">
+                    <a className="link px-3 s700-collapse-padding">
+                        Employers
+                    </a>
+                </Link>
                 <Link to="/positions">
-                    <a className="link px-4">
+                    <a className="link px-3 s700-collapse-padding">
                         Positions
                     </a>
                 </Link>
 
                 <button
-                    className="btn radius btn-darkgreen my-2 px-4"
+                    className="btn radius btn-darkgreen my-2 px-4 s700-collapse-margin"
                     type="submit"
                 >
                     Get Started
