@@ -44,7 +44,7 @@ const IndexPage = () => (
                         <div className="pt-3 d-flex align-items-center justify-content-center">
                             <input
                                 type="text"
-                                className="form-control d-inline"
+                                className="form-control d-inline w-300px"
                                 placeholder="Enter Your Email"
                             />
 
@@ -158,7 +158,7 @@ const IndexPage = () => (
             <div className="mt-4 d-flex align-items-center justify-content-center">
                 <input
                     type="text"
-                    className="form-control"
+                    className="form-control w-300px"
                     placeholder="Enter Your Email"
                 />
 
@@ -361,7 +361,7 @@ const IndexPage = () => (
             <div className="d-flex align-items-center justify-content-center">
                 <input
                     type="text"
-                    className="form-control"
+                    className="form-control w-300px"
                     placeholder="Enter Your Email"
                 />
 

@@ -17,6 +17,14 @@
     padding-right: 9em;
 }
 
+.w-150px {
+    width: 150px;
+}
+
+.w-200px {
+    width: 200px;
+}
+
 .w-250px {
     width: 250px;
 }
@@ -45,12 +53,12 @@
     width: 500px;
 }
 
-.w-800px-max {
-    max-width: 800px;
+.w-600px {
+    width: 600px;
 }
 
-.form-control {
-    width: 300px !important;
+.w-800px-max {
+    max-width: 800px;
 }
 
 .ml-4p {

@@ -80,7 +80,7 @@ const About = () => (
             <div className="mt-4 d-flex align-items-center justify-content-center">
                 <input
                     type="text"
-                    className="form-control"
+                    className="form-control w-300px"
                     placeholder="Enter Your Email"
                 />
                 <button

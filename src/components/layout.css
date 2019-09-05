@@ -150,6 +150,11 @@ nav button {
         flex-direction: column !important;
     }
 
+    .s900-display-column-reverse {
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+
     .s900-hide {
         display: none !important;
     }

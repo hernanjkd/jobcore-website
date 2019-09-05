@@ -41,8 +41,16 @@ a:hover {
     color: white;
 }
 
+.hover-white:hover {
+    color: white !important;
+}
+
 .hover-highlight:hover {
     color: var(--brightblue);
+}
+
+.hover-bg-brightblue:hover {
+    background: var(--brightblue) !important;
 }
 
 .purple-checkmark {
