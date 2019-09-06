@@ -57,6 +57,14 @@ nav button {
     color: white;
 }
 
+.darkgreen-top-image {
+    height: 450px;
+    background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/BKpZoQ4viqlda90c/videoblocks-dark-green-abstract-motion-loopable-background_rzxkiiwqf_thumbnail-full01.png');
+    background-size: 100% 100%;
+    text-shadow: 1px 1px 6px black;
+    color: white;
+}
+
 .job-seekers-content p,
 .job-seekers-content li {
     color: rgb(165, 165, 165);

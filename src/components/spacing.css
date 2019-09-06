@@ -61,6 +61,14 @@
     width: 600px;
 }
 
+.w-620px {
+    width: 620px;
+}
+
+.w-650px {
+    width: 650px;
+}
+
 .w-800px-max {
     max-width: 800px;
 }

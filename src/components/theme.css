@@ -1,7 +1,7 @@
 :root {
     --brightblue: rgb(17, 186, 192);
     --purple: rgb(163, 25, 163);
-    --darkgreen: rgb(17, 116, 108);
+    --darkgreen: rgb(18, 104, 126);
     --gray: rgb(165, 165, 165);
     --lightgray: rgb(240, 240, 240);
 }
@@ -30,7 +30,7 @@ a:hover {
 }
 
 .text-brightblue {
-    color: var(--brightblue);
+    color: var(--brightblue) !important;
 }
 
 .text-gray {

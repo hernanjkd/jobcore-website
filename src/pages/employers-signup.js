@@ -22,13 +22,14 @@ const EmployersSignUp = () => (
 
                 <form>
                     <div className="form-row s700-display-column">
-                        <div className="form-group col py-1">
+                        <div className="form-group col py-1 has-feedback has-feedback-right">
                             <label className=""><h6>First Name</h6></label>
                             <input
                                 type="text"
                                 className="form-control"
                                 placeholder="John"
                             />
+                            <i className="glyphicon glyphicon-user form-control-feedback"></i>
                         </div>
                         <div className="form-group col py-1">
                             <label className=""><h6>Last Name</h6></label>

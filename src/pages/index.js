@@ -51,9 +51,7 @@ const IndexPage = () => (
                                 placeholder="Enter Your Email"
                             />
 
-                            <button
-                                className="btn radius btn-purple my-2 ml-2 px-4 py-2 d-inline"
-                            >
+                            <button className="btn radius btn-purple my-2 ml-2 px-4 py-2 d-inline">
                                 Get Started
                             </button>
                         </div>
@@ -165,9 +163,7 @@ const IndexPage = () => (
                     placeholder="Enter Your Email"
                 />
 
-                <button
-                    className="btn radius btn-purple my-2 ml-2 px-4 py-2"
-                >
+                <button className="btn radius btn-purple my-2 ml-2 px-4 py-2">
                     Get Started
                 </button>
             </div>
@@ -224,9 +220,7 @@ const IndexPage = () => (
                 Sign up today and experience the difference. It's fast and easy!
             </p>
 
-            <button
-                className="btn radius btn-purple mt-3 my-2 ml-2 px-5 py-3"
-            >
+            <button className="btn radius btn-purple mt-3 my-2 ml-2 px-5 py-3">
                 Get Started
             </button>
         </div>
@@ -254,7 +248,7 @@ const IndexPage = () => (
             </h3>
 
             <div className="d-flex justify-content-center py-4">
-                
+
                 <div className="w-280px s900-hide">
                     <img src={Customer1} />
                     <div className="d-flex justify-content-end align-items-center mt-3">
@@ -284,9 +278,9 @@ const IndexPage = () => (
                         <img className="mr-3 ml-2" src={Review1} />
                     </div>
                 </div>
-                
+
                 <div className="w-280px">
-                     <img src={Customer2} />
+                    <img src={Customer2} />
                     <div className="d-flex justify-content-end align-items-center mt-3">
                         <span className="text-left">
                             <div>
@@ -314,7 +308,7 @@ const IndexPage = () => (
                         <img className="mr-3 ml-2" src={Review2} />
                     </div>
                 </div>
-                
+
                 <div className="w-280px">
                     <img src={Customer3} />
                     <div className="d-flex justify-content-end align-items-center mt-3">
@@ -364,9 +358,7 @@ const IndexPage = () => (
                     placeholder="Enter Your Email"
                 />
 
-                <button
-                    className="btn radius btn-purple my-2 ml-2 px-4 py-2"
-                >
+                <button className="btn radius btn-purple my-2 ml-2 px-4 py-2">
                     Get Started
                 </button>
             </div>
