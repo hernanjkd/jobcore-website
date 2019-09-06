@@ -10,7 +10,7 @@ const JobSeekersSignUp = () => (
             <div className="text-center w-100 px-10">
                 <h1 className="font-size-4em">
                     <span className="p-2 px-4 bg-black-opacity">Job Seekers
-                        <span className="text-brightblue"> Signup</span>
+                        <span className="text-brightblue"> Sign Up</span>
                     </span>
                 </h1>
             </div>
