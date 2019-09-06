@@ -1,9 +1,41 @@
 import React from 'react'
 import Layout from '../components/layout'
+import BlogPost from '../components/blog-post'
 
 import People from '../images/blog-people.png'
 
 /* eslint-disable */
+
+const posts = [
+    {
+        image: People,
+        title: "Everything you need to know about events",
+        date: "12 Mar, 2019",
+        author: "Meras Zabria",
+        content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A maiores alias temporibus sequi ex modi consectetur nam pariatur ad, totam vel eius, animi quo repellat reprehenderit maxime quibusdam earum aspernatur."
+    },
+    {
+        image: People,
+        title: "Getting married during the summer and the risks",
+        date: "4 Jan, 2019",
+        author: "Meras Zabria",
+        content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A maiores alias temporibus sequi ex modi consectetur nam pariatur ad, totam vel eius, animi quo repellat reprehenderit maxime quibusdam earum aspernatur."
+    },
+    {
+        image: People,
+        title: "Everything you need to know about banking",
+        date: "2 Dec, 2018",
+        author: "Meras Zabria",
+        content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A maiores alias temporibus sequi ex modi consectetur nam pariatur ad, totam vel eius, animi quo repellat reprehenderit maxime quibusdam earum aspernatur."
+    },
+    {
+        image: People,
+        title: "10 reasons why you should use JobCore and not another company",
+        date: "7 Feb, 2018",
+        author: "Meras Zabria",
+        content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A maiores alias temporibus sequi ex modi consectetur nam pariatur ad, totam vel eius, animi quo repellat reprehenderit maxime quibusdam earum aspernatur."
+    },
+]
 
 const Blog = () => (
     <Layout>
@@ -16,112 +48,40 @@ const Blog = () => (
                 </h1>
             </div>
         </div>
+
         <div className="d-flex justify-content-center my-5 px-5">
-
             <div className="w-620px mr-3">
-                <img src={People} />
-                <h4 className="pt-3">Everything you need to know about events</h4>
-                <small className="text-secondary">
-                    12 Jan, 2019 by <a className="text-brightblue">Meras Zabria</a>
-                </small>
-                <p className="text-gray py-3">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A maiores alias temporibus sequi ex modi consectetur nam pariatur ad, totam vel eius, animi quo repellat reprehenderit maxime quibusdam earum aspernatur.
-                </p>
-                <button className="btn radius btn-darkgreen px-4 py-2 mb-3">
-                    Read More
-                </button>
-
-                <hr className="w-620px pb-3" />
-
-                <img src={People} />
-                <h4 className="pt-3">Getting married during the summer and the risks</h4>
-                <small className="text-secondary">
-                    12 Jan, 2019 by <a className="text-brightblue">Meras Zabria</a>
-                </small>
-                <p className="text-gray py-3">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A maiores alias temporibus sequi ex modi consectetur nam pariatur ad, totam vel eius, animi quo repellat reprehenderit maxime quibusdam earum aspernatur.
-                </p>
-                <button className="btn radius btn-darkgreen px-4 py-2 mb-3">
-                    Read More
-                </button>
-
-                <hr className="w-620px pb-3" />
-
-                <img src={People} />
-                <h4 className="pt-3">Everything you need to know about Banking</h4>
-                <small className="text-secondary">
-                    12 Jan, 2019 by <a className="text-brightblue">Meras Zabria</a>
-                </small>
-                <p className="text-gray py-3">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A maiores alias temporibus sequi ex modi consectetur nam pariatur ad, totam vel eius, animi quo repellat reprehenderit maxime quibusdam earum aspernatur.
-                </p>
-                <button className="btn radius btn-darkgreen px-4 py-2 mb-3">
-                    Read More
-                </button>
+                {posts.map((e, i) => (
+                    <BlogPost key={i} data={e} />
+                ))}
             </div>
 
-            <div className="w-280px s800-hide">
-                <div className="border py-4 px-3 text-center">
-                    <h2 className="text-brightblue my-4">Apply Here</h2>
+            <div className="w-300px text-center s800-hide">
+                <input
+                    className="form-control w-100 shadow mb-5"
+                    type="text"
+                    placeholder="Search..."
+                />
 
-                    <div className="d-flex align-items-center justify-content-start my-4">
-                        <i class="fas fa-map-marker-alt text-purple mr-3 font-size-23px"></i>
-                        <span className="text-left">
-                            <div className="text-gray font-size-13px">
-                                Position
-                                </div>
-                            <div className="font-size-15px">
-                                Miami Beach, Florida
-                                </div>
-                        </span>
-                    </div>
-                    <div className="d-flex align-items-center justify-content-start my-4">
-                        <i class="far fa-calendar-check text-purple mr-3 font-size-23px"></i>
-                        <span className="text-left">
-                            <div className="text-gray font-size-13px">
-                                Salary
-                                </div>
-                            <div className="font-size-15px">
-                                $ 11.53 - $ 12.33 / Hour
-                                </div>
-                        </span>
-                    </div>
-                    <div className="d-flex align-items-center justify-content-start my-4">
-                        <i class="far fa-address-card text-purple mr-3 fa-lg"></i>
-                        <span className="text-left">
-                            <div className="text-gray font-size-13px">
-                                Job Type
-                                </div>
-                            <div className="font-size-15px">
-                                Contract - Part Time
-                                </div>
-                        </span>
-                    </div>
-
-                    <div className="text-gray font-size-13px text-left">
-                        Category
-                        </div>
-                    <div className="font-size-15px text-left">
-                        Wedding Events & Organizers - Event Operators
-                        </div>
-
-                    <div className="text-gray font-size-12px text-left mt-4">
-                        Reference number
-                        </div>
-                    <div className="font-size-14px text-left">
-                        US_EN_99_038298_372849
-                        </div>
-
-                    <h2 className="text-brightblue my-4">Apply Here</h2>
-
-                    <button
-                        className="btn radius btn-purple my-2 px-5 py-3"
-                    >
+                <div className="border p-3 pb-5">
+                    <h3 className="pt-5 pb-2">
+                        There are lots of
+                    <span className="text-brightblue"> new jobs available </span>
+                        on JobCore
+                    </h3>
+                    <h6 className="mb-2">
+                        Sign up today to get started.
+                    </h6>
+                    <button className="btn radius btn-purple w-220px mt-5 mb-2 py-3">
                         Get Started
-                        </button>
+                    </button>
+                    <button className="btn radius btn-darkgreen w-220px mt-3 mb-4 py-3">
+                        View Positions
+                    </button>
                 </div>
-            </div>
 
+                <h5 className="text-brightblue text-left mt-5">Keywords</h5>
+            </div>
         </div>
 
     </Layout>

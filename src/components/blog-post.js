@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 /* eslint-disable */
 
@@ -19,5 +20,10 @@ const BlogPost = ({ data }) => (
         <hr className="w-620px" />
     </div>
 )
+
+
+BlogPost.propTypes = {
+    data: PropTypes.object
+}
 
 export default BlogPost
