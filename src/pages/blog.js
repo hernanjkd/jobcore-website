@@ -81,6 +81,7 @@ const Blog = () => (
                 </div>
 
                 <h5 className="text-brightblue text-left mt-5">Keywords</h5>
+                pending...
             </div>
         </div>
 
