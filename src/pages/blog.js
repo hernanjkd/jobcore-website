@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
-import BlogPost from '../components/blog-post'
+import Post from '../components/blog-post'
+import SideBar from '../components/blog-sidebar'
 
 import People from '../images/blog-people.png'
 
@@ -52,37 +53,11 @@ const Blog = () => (
         <div className="d-flex justify-content-center my-5 px-5">
             <div className="w-620px mr-3">
                 {posts.map((e, i) => (
-                    <BlogPost key={i} data={e} />
+                    <Post key={i} data={e} />
                 ))}
             </div>
 
-            <div className="w-300px text-center s800-hide">
-                <input
-                    className="form-control w-100 shadow mb-5"
-                    type="text"
-                    placeholder="Search..."
-                />
-
-                <div className="border p-3 pb-5">
-                    <h3 className="pt-5 pb-2">
-                        There are lots of
-                    <span className="text-brightblue"> new jobs available </span>
-                        on JobCore
-                    </h3>
-                    <h6 className="mb-2">
-                        Sign up today to get started.
-                    </h6>
-                    <button className="btn radius btn-purple w-220px mt-5 mb-2 py-3">
-                        Get Started
-                    </button>
-                    <button className="btn radius btn-darkgreen w-220px mt-3 mb-4 py-3">
-                        View Positions
-                    </button>
-                </div>
-
-                <h5 className="text-brightblue text-left mt-5">Keywords</h5>
-                pending...
-            </div>
+            <SideBar />
         </div>
 
     </Layout>
