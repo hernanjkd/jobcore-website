@@ -2,7 +2,7 @@ import React from 'react'
 
 /* eslint-disable */
 
-const BlogSideBar = () => (
+export default () => (
     <div className="w-300px text-center s900-hide">
         <input
             className="form-control w-100 shadow mb-5"
@@ -44,5 +44,3 @@ const BlogSideBar = () => (
         </div>
     </div>
 )
-
-export default BlogSideBar

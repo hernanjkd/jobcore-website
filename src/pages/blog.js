@@ -38,7 +38,7 @@ const posts = [
     },
 ]
 
-const Blog = () => (
+export default () => (
     <Layout>
         <div className="darkgreen-top-image d-flex align-items-center px-10">
             <div className="text-center w-100 px-10">
@@ -62,5 +62,3 @@ const Blog = () => (
 
     </Layout>
 )
-
-export default Blog

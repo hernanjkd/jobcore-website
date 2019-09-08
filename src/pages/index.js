@@ -24,7 +24,7 @@ import Customer3 from '../images/customer3.png'
 
 /* eslint-disable */
 
-const IndexPage = () => (
+export default () => (
     <Layout>
         <SEO title="Home" />
 
@@ -365,5 +365,3 @@ const IndexPage = () => (
         </div>
     </Layout>
 )
-
-export default IndexPage

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 /* eslint-disable */
 
-const BlogPost = ({ data }) => (
+export default Object.assign(({ data }) => (
     <div className="pb-3">
         <img src={data.image} />
         <h4 className="pt-3">{data.title}</h4>
@@ -19,11 +19,10 @@ const BlogPost = ({ data }) => (
 
         <hr className="w-620px" />
     </div>
-)
-
-
-BlogPost.propTypes = {
-    data: PropTypes.object
-}
-
-export default BlogPost
+),
+    {
+        propTypes: {
+            data: PropTypes.object
+        }
+    }
+);
