@@ -33,8 +33,8 @@ export default () => (
                 <div className="row">
                     <div className="col-6 text-left">
                         <h1 className="">
-                            Get work fast &{' '}
-                            <span className="text-brightblue">get paid </span>
+                            Get work fast &
+                            <span className="text-brightblue"> get paid </span>
                             the same day
                         </h1>
 
@@ -80,8 +80,8 @@ export default () => (
         <div className="py-10 px-10 text-center">
             <div className="container">
                 <h3>
-                    Finally a centralized{' '}
-                    <span className="text-brightblue">source of talents </span>
+                    Finally a centralized
+                    <span className="text-brightblue"> source of talents </span>
                     and companies!
                 </h3>
 
@@ -342,8 +342,8 @@ export default () => (
             </div>
 
             <h3 className="pt-5 mt-3">
-                It's never been easier{' '}
-                <span className="text-brightblue">find jobs and hire</span> in
+                It's never been easier
+                <span className="text-brightblue"> find jobs and hire</span> in
                 the hospitality industry.
             </h3>
 
