@@ -7,7 +7,7 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import Helmet from "react-helmet"
+import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
 function SEO({ description, lang, meta, title }) {
@@ -34,6 +34,11 @@ function SEO({ description, lang, meta, title }) {
       }}
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
+      link={[
+        { rel: 'icon', type: 'image/png', sizes: "16x16", href: `` },
+        { rel: 'icon', type: 'image/png', sizes: "32x32", href: `` },
+        { rel: 'shortcut icon', type: 'image/png', href: `` },
+      ]}
       meta={[
         {
           name: `description`,

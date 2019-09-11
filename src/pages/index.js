@@ -1,7 +1,6 @@
 import React from 'react'
 
 import Layout from '../components/layout'
-import SEO from '../components/seo'
 import Player from '../components/Player'
 
 //assets
@@ -26,8 +25,6 @@ import Customer3 from '../images/customer3.png'
 
 export default () => (
     <Layout>
-        <SEO title="Home" />
-
         <div className="bg-lightgray py-10 m-0">
             <div className="container">
                 <div className="row">
