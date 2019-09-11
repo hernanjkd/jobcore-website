@@ -1,11 +1,14 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
+import SEO from '../components/seo'
 
 /* eslint-disable */
 
 const JobSeekersSignUp = () => (
     <Layout>
+        <SEO title="Sign Up" />
+
         <div className="pink-top-image text-light d-flex align-items-center">
             <div className="text-center w-100 px-10">
                 <h1 className="font-size-4em">

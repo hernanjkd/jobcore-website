@@ -1,10 +1,13 @@
 import React from 'react'
 import Layout from '../components/layout'
+import SEO from '../components/seo'
 
 /* eslint-disable */
 
 const Terms = () => (
     <Layout>
+        <SEO title="Terms & Conditions" />
+
         <div className="pink-top-image text-light d-flex align-items-center">
             <div className="text-center w-100 px-10">
                 <h1 className="font-size-4em">
