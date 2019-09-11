@@ -15,14 +15,25 @@ a:hover {
     text-decoration: none;
 }
 
+.active {
+    color: var(--brightblue) !important;
+    cursor: default !important;
+}
+
 .btn-purple {
     background: var(--purple);
     color: white;
+}
+.btn-purple:hover {
+    color: var(--brightblue) !important;
 }
 
 .btn-darkgreen {
     background: var(--darkgreen);
     color: white;
+}
+.btn-darkgreen:hover {
+    color: var(--brightblue) !important;
 }
 
 .text-purple {
