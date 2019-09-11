@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
+import SEO from '../components/seo'
 import Post from '../components/blog-post'
 import SideBar from '../components/blog-sidebar'
 
@@ -40,6 +41,7 @@ const posts = [
 
 export default () => (
     <Layout>
+        <SEO title="Blog" />
         <div className="darkgreen-top-image d-flex align-items-center px-10">
             <div className="text-center w-100 px-10">
                 <h1 className="font-size-4em">

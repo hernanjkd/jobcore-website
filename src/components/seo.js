@@ -10,6 +10,8 @@ import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
+import Favicon from '../images/favicon.ico'
+
 function SEO({ description, lang, meta, title }) {
   const { site } = useStaticQuery(
     graphql`
@@ -33,11 +35,10 @@ function SEO({ description, lang, meta, title }) {
         lang,
       }}
       title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
+      titleTemplate={`%s | JobCore`}
       link={[
-        { rel: 'icon', type: 'image/png', sizes: "16x16", href: `` },
-        { rel: 'icon', type: 'image/png', sizes: "32x32", href: `` },
-        { rel: 'shortcut icon', type: 'image/png', href: `` },
+        { rel: 'icon', type: 'image/png', sizes: "16x16", href: `${Favicon}` },
+        { rel: 'shortcut icon', type: 'image/png', href: `${Favicon}` },
       ]}
       meta={[
         {
