@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
+import SEO from '../components/seo'
 import PositionCard from '../components/position-card'
 
 const data = [
@@ -35,6 +36,7 @@ const rows = [1, 2, 3, 4];
 
 const Positions = () => (
     <Layout>
+        <SEO title="Positions" />
         <div className="gray-top-image text-light d-flex align-items-center">
             <div className="text-center w-100 px-10">
                 <h1>

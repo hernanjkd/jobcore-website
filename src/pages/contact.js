@@ -1,10 +1,12 @@
 import React from 'react'
 import Layout from '../components/layout'
+import SEO from '../components/seo'
 
 /* eslint-disable */
 
 const Contact = () => (
     <Layout>
+        <SEO title="Contact" />
 
         <div className="pink-top-image text-light d-flex align-items-center">
             <div className="text-center w-100 px-10">

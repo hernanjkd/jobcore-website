@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
+import SEO from '../components/seo'
 
 import PhoneApp from '../images/phone-app.png'
 import StepOne from '../images/step-one.png'
@@ -10,6 +11,8 @@ import StepThree from '../images/step-three.png'
 
 const About = () => (
     <Layout>
+        <SEO title="About" />
+
         <div className="pink-top-image text-light d-flex align-items-center">
             <div className="text-center w-100 px-10">
                 <h1 className="font-size-4em">

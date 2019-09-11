@@ -25,7 +25,7 @@ import Customer3 from '../images/customer3.png'
 
 const JobSeekers = () => (
     <Layout>
-        <SEO title="Home" />
+        <SEO title="Job Seekers" />
 
         <div className="bg-lightgray py-10 m-0">
             <div className="container">

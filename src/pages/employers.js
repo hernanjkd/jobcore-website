@@ -22,7 +22,7 @@ import Review3 from '../images/review3.png'
 
 const Employers = () => (
     <Layout>
-        <SEO title="Home" />
+        <SEO title="Employers" />
 
         <div className="bg-lightgray py-10 m-0">
             <div className="container">
