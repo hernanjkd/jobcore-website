@@ -51,21 +51,21 @@ export default () => (
 
                     <div className="py-2 mt-3 d-flex justify-content-start align-items-center border-top border-bottom">
                         <span className="mr-3">Share Now:</span>
-                        <div className="bg-facebook mx-1 round-links d-flex justify-content-center align-items-center">
-                            <a href="#">
-                                <i class="fab fa-facebook-f text-white"></i>
-                            </a>
-                        </div>
-                        <div className="bg-success mx-1 round-links d-flex justify-content-center align-items-center">
-                            <a href="#">
-                                <i class="fab fa-whatsapp text-white"></i>
-                            </a>
-                        </div>
-                        <div className="bg-pinterest mx-1 round-links d-flex justify-content-center align-items-center">
-                            <a href="#">
-                                <i class="fab fa-pinterest-p text-white"></i>
-                            </a>
-                        </div>
+                        <a href="#" className="bg-facebook mx-1 round-links d-flex justify-content-center align-items-center">
+                            <i class="fab fa-facebook-f text-white"></i>
+                        </a>
+                        <a href="#" className="bg-twitter mx-1 round-links d-flex justify-content-center align-items-center">
+                            <i class="fab fa-twitter text-white"></i>
+                        </a>
+                        <a href="#" className="bg-success mx-1 round-links d-flex justify-content-center align-items-center">
+                            <i class="fab fa-whatsapp text-white"></i>
+                        </a>
+                        <a href="#" className="bg-pinterest mx-1 round-links d-flex justify-content-center align-items-center">
+                            <i class="fab fa-pinterest-p text-white"></i>
+                        </a>
+                        <a href="#" className="bg-messenger mx-1 round-links d-flex justify-content-center align-items-center">
+                            <i class="fab fa-facebook-messenger text-white"></i>
+                        </a>
                     </div>
 
                 </div>

@@ -86,9 +86,13 @@ a:hover {
 }
 
 .bg-facebook {
-    background: rgb(20, 20, 177);
+    background: rgb(55, 55, 168);
+}
+
+.bg-messenger {
+    background: rgb(0, 110, 255);
 }
 
 .bg-twitter {
-    background: rgb(0, 110, 255);
+    background: rgb(27, 181, 241);
 }
