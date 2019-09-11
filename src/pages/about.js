@@ -9,7 +9,7 @@ import StepThree from '../images/step-three.png'
 
 /* eslint-disable */
 
-const About = () => (
+export default () => (
     <Layout>
         <SEO title="About" />
 
@@ -97,5 +97,3 @@ const About = () => (
 
     </Layout>
 )
-
-export default About

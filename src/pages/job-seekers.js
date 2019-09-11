@@ -2,7 +2,7 @@ import React from 'react'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import Player from '../components/Player'
+import Player from '../components/player'
 
 //assets
 import AppStore from '../images/app-store.png'

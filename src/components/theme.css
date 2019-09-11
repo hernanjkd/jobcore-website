@@ -65,6 +65,10 @@ a:hover {
     font-size: 15px;
 }
 
+.bg-white {
+    background: white;
+}
+
 .bg-lightgray {
     background: var(--lightgray);
 }
@@ -75,4 +79,16 @@ a:hover {
 
 .bg-black-opacity {
     background: rgb(0, 0, 0, 0.5);
+}
+
+.bg-pinterest {
+    background: rgb(190, 14, 14);
+}
+
+.bg-facebook {
+    background: rgb(20, 20, 177);
+}
+
+.bg-twitter {
+    background: rgb(0, 110, 255);
 }

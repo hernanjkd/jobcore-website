@@ -4,7 +4,7 @@ import PositionCard from '../components/position-card'
 
 /* eslint-disable */
 
-const PositionSlug = () => (
+export default () => (
     <Layout>
         <div className="gray-top-image d-flex align-items-center px-10">
             <div>
@@ -210,5 +210,3 @@ const PositionSlug = () => (
         </div>
     </Layout>
 )
-
-export default PositionSlug

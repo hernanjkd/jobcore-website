@@ -78,28 +78,28 @@ const Footer = () => (
         </div>
         <div className="text-center pt-3">
             <div className="pb-4">
-                <span className="round-links mr-3">
+                <span className="round-links bg-white mr-3">
                     <a href="#">
                         <span className="d-flex align-items-center justify-content-center">
                             <i class="fab fa-facebook-f"></i>
                         </span>
                     </a>
                 </span>
-                <span className="round-links mr-3">
+                <span className="round-links bg-white mr-3">
                     <a href="#">
                         <span className="d-flex align-items-center justify-content-center">
                             <i class="fab fa-twitter"></i>
                         </span>
                     </a>
                 </span>
-                <span className="round-links mr-3">
+                <span className="round-links bg-white mr-3">
                     <a href="#">
                         <span className="d-flex align-items-center justify-content-center">
                             <i class="fab fa-instagram"></i>
                         </span>
                     </a>
                 </span>
-                <span className="round-links">
+                <span className="round-links bg-white">
                     <a href="#">
                         <span className="d-flex align-items-center justify-content-center">
                             <i class="fas fa-envelope"></i>
