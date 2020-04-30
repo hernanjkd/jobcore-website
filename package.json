@@ -20,6 +20,8 @@
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
+    "acorn": "^7.1.1",
+    "kind-of": "^6.0.3",
     "minimist": "^1.2.5",
     "prettier": "^1.19.1"
   },
@@ -44,6 +46,7 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "resolutions": {
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.5",
+    "kind-of": "^6.0.3"
   }
 }
